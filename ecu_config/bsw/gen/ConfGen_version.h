@@ -15,6 +15,6 @@
 #define CONFGEN_BUNDLE_CONFIGXML ""
 #define CONFGEN_ISOLAR_A "ISOLAR-A/B 7.0.1"
 
-// generated on Mon Nov 22 14:04:29 CST 2021
+// generated on Tue Nov 23 17:37:35 CST 2021
 
 #endif

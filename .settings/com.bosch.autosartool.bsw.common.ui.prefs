@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+lastEcuToSync=/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS
+lastFileToSync=Project_EcucValues.arxml
+lastFileTypeSel=single
+lastSelReferences_CanNmTxPduRef=/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/TMR_3_Can_Network_CANNODE_0_CanIf2PduR;/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/NMm_HCU_Can_Network_CANNODE_0_CanIf2CanNm;
+multiFileSync=
+scripLocations=
+syncFile=
