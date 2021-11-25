@@ -1,0 +1,2236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>ETAS_Project</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE>
+          <SHORT-NAME>EcucModuleConfigurationValuess</SHORT-NAME>
+          <ELEMENTS>
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="ccc2b37d-af46-4b21-bab3-a69edafa7ce4">
+              <SHORT-NAME>CanNm</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm</DEFINITION-REF>
+              <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="6799657f-04e1-452c-8981-ad4b2908a029">
+                  <SHORT-NAME>CanNmGlobalConfig</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmComUserDataSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmImmediateRestartEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmImmediateTxconfEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmVersionInfoApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmBusLoadReductionEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmBusSynchronizationEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmComControlEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmCoordinatorSyncSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmMainFunctionPeriod</DEFINITION-REF>
+                      <VALUE>0.01</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmNodeDetectionEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmNodeIdEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmPassiveModeEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmPduRxIndicationEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmRemoteSleepIndEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmRepeatMsgIndEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmStateChangeIndEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmUserDataEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmDevErrorDetect</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="6eaaeae2-5b02-4fdf-9840-eac428a4f56e">
+                      <SHORT-NAME>CanNmChannelConfig_NmConfig_0_CanNmCluster_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmBusLoadReductionActive</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmCarWakeUpRxEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmImmediateNmCycleTime</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmImmediateNmTransmissions</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmMsgCycleOffset</DEFINITION-REF>
+                          <VALUE>0.0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmMsgCycleTime</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmMsgReducedTime</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmMsgTimeoutTime</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmNodeId</DEFINITION-REF>
+                          <VALUE>1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmPduCbvPosition</DEFINITION-REF>
+                          <VALUE>CANNM_PDU_BYTE_1</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmPduNidPosition</DEFINITION-REF>
+                          <VALUE>CANNM_PDU_BYTE_0</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmRemoteSleepIndTime</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmRepeatMessageTime</DEFINITION-REF>
+                          <VALUE>0.0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmTimeoutTime</DEFINITION-REF>
+                          <VALUE>0.02</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmWaitBusSleepTime</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmComMNetworkHandleRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/ComM/ComMConfigSet/ComMChannel_Can_NCluster_Channel</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="6170b261-75e1-44ec-b5a2-3ad76f7c281d">
+                          <SHORT-NAME>CanNmRxPdu_NMm_CDU_CANNODE_0_CanIf2CanNm</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmRxPdu</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmRxPdu/CanNmRxPduRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/NMm_CDU_CANNODE_0_CanIf2CanNm</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="ee09cb44-85ca-4009-b0ee-97af62aa46e9">
+                          <SHORT-NAME>CanNmTxPdu_NMm_BMS_CANNODE_0_CanNm2CanIf</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmTxPdu</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanNm/EcucModuleDefs/CanNm/CanNmGlobalConfig/CanNmChannelConfig/CanNmTxPdu/CanNmTxPduRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/NMm_BMS_CANNODE_0_CanNm2CanIf</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="b58f40f4-f620-4a9e-8d46-83a2d9429b40">
+              <SHORT-NAME>ComM</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM</DEFINITION-REF>
+              <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="b3d19873-cc6e-4c68-a610-f517a8956e78">
+                  <SHORT-NAME>ComMGeneral</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMEcuGroupClassification</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMModeLimitationEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMTMinFullComModeDuration</DEFINITION-REF>
+                      <VALUE>0.01</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMVersionInfoApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMWakeupInhibitionEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMPncGatewayEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMPncSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMResetAfterForcingNoComm</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMSynchronousWakeUp</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMRteEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral/ComMDevErrorDetect</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="80c2ca56-7035-4e73-b98b-6c637e6a9a1f">
+                  <SHORT-NAME>ComMConfigSet</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet</DEFINITION-REF>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="1587a4e9-a907-41c9-85a0-2b61158e7050">
+                      <SHORT-NAME>ComMUser_Can_NCluster_Channel</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMUser</DEFINITION-REF>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="e3201526-9486-4725-b647-53c2f31bd5bf">
+                      <SHORT-NAME>ComMChannel_Can_NCluster_Channel</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMMainFunctionPeriod</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMFullCommRequestNotificationEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMNoCom</DEFINITION-REF>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMNoWakeUpInhibitionNvmStorage</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMNoWakeup</DEFINITION-REF>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMBusType</DEFINITION-REF>
+                          <VALUE>COMM_BUS_TYPE_CAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="949a4522-392e-4783-aa21-99feb2a28598">
+                          <SHORT-NAME>ComMNetworkManagement</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMNetworkManagement</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMNetworkManagement/ComMNmLightTimeout</DEFINITION-REF>
+                              <VALUE>10</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMNetworkManagement/ComMPncNmRequest</DEFINITION-REF>
+                              <VALUE>false</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                            <ECUC-TEXTUAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMNetworkManagement/ComMNmVariant</DEFINITION-REF>
+                              <VALUE>FULL</VALUE>
+                            </ECUC-TEXTUAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="4689d702-c559-45b1-ba12-7b439bc4650d">
+                          <SHORT-NAME>ComMUserPerChannel_Can_NCluster_Channel</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMUserPerChannel</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMUserPerChannel/ComMUserChannel</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/ComM/ComMConfigSet/ComMUser_Can_NCluster_Channel</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="f07be6d3-df8a-402a-8f65-462ba15bbf7f">
+              <SHORT-NAME>CanIf</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf</DEFINITION-REF>
+              <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="aa60ac79-7d7a-4ca8-a372-1ffa39048cdc">
+                  <SHORT-NAME>CanIfInitCfg</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitCfgSet</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="8e9bae12-42e6-468a-a161-6833b2b62b22">
+                      <SHORT-NAME>CanIfInitHohCfg</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg</DEFINITION-REF>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="f8b7cf79-25c4-40f0-97b0-9329398f7bf5">
+                          <SHORT-NAME>CANNODE_0_Rx_Std_MailBox_1</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg/CanIfHrhIdSymRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/Can/Can/CanConfigSet/CANNODE_0_Rx_Std_MailBox_1</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg/CanIfHrhCanCtrlIdRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfCtrlDrvCfg/CANNODE_0</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="3ed14c82-a689-49f6-b08e-a06666e0b967">
+                          <SHORT-NAME>CANNODE_0_Rx_Std_MailBox_2</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg/CanIfHrhIdSymRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/Can/Can/CanConfigSet/CANNODE_0_Rx_Std_MailBox_2</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg/CanIfHrhCanCtrlIdRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfCtrlDrvCfg/CANNODE_0</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="faf9e7a1-3d94-4234-be58-d8081665c915">
+                          <SHORT-NAME>CANNODE_0_Rx_Std_MailBox_3</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg/CanIfHrhIdSymRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/Can/Can/CanConfigSet/CANNODE_0_Rx_Std_MailBox_3</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg/CanIfHrhCanCtrlIdRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfCtrlDrvCfg/CANNODE_0</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="b8f749d2-ce48-4d3e-bf2d-dc2f7c7404d7">
+                          <SHORT-NAME>CANNODE_0_Tx_Std_MailBox_1</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg/CanIfHthIdSymRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/Can/Can/CanConfigSet/CANNODE_0_Tx_Std_MailBox_1</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg/CanIfHthCanCtrlIdRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfCtrlDrvCfg/CANNODE_0</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="8d785f45-1343-4384-bb3e-4d8c15fcc937">
+                          <SHORT-NAME>CANNODE_0_Tx_Std_MailBox_2</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg/CanIfHthIdSymRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/Can/Can/CanConfigSet/CANNODE_0_Tx_Std_MailBox_2</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg/CanIfHthCanCtrlIdRef</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfCtrlDrvCfg/CANNODE_0</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="8bbbe74b-1b72-4ad1-8b28-9fb48ae58ce9">
+                      <SHORT-NAME>TMR_3_CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduReadData</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduReadNotifyStatus</DEFINITION-REF>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduCanId</DEFINITION-REF>
+                          <VALUE>808</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduCanIdType</DEFINITION-REF>
+                          <VALUE>STANDARD_CAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduDlc</DEFINITION-REF>
+                          <VALUE>8</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduUserRxIndicationName</DEFINITION-REF>
+                          <VALUE>PduR_CanIfRxIndication</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduUserRxIndicationUL</DEFINITION-REF>
+                          <VALUE>PDUR</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduHrhIdRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfInitCfg/CanIfInitHohCfg/CANNODE_0_Rx_Std_MailBox_1</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/TMR_3_CANNODE_0_CanIf2PduR</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="7ce073b7-b02a-4a73-8e87-bb3336e39f1a">
+                      <SHORT-NAME>NMm_CDU_CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduReadData</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduReadNotifyStatus</DEFINITION-REF>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduCanId</DEFINITION-REF>
+                          <VALUE>1583</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduCanIdType</DEFINITION-REF>
+                          <VALUE>STANDARD_CAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduDlc</DEFINITION-REF>
+                          <VALUE>8</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduUserRxIndicationUL</DEFINITION-REF>
+                          <VALUE>CAN_NM</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduHrhIdRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfInitCfg/CanIfInitHohCfg/CANNODE_0_Rx_Std_MailBox_2</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/NMm_CDU_CANNODE_0_CanIf2CanNm</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="24ffda55-98ac-452d-b241-9ba0a06990a9">
+                      <SHORT-NAME>OBC_4_CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduReadData</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduReadNotifyStatus</DEFINITION-REF>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduCanId</DEFINITION-REF>
+                          <VALUE>1084</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduCanIdType</DEFINITION-REF>
+                          <VALUE>STANDARD_CAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduDlc</DEFINITION-REF>
+                          <VALUE>8</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduUserRxIndicationName</DEFINITION-REF>
+                          <VALUE>PduR_CanIfRxIndication</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduUserRxIndicationUL</DEFINITION-REF>
+                          <VALUE>PDUR</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduHrhIdRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfInitCfg/CanIfInitHohCfg/CANNODE_0_Rx_Std_MailBox_3</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/OBC_4_CANNODE_0_CanIf2PduR</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="e3718dcc-d8dd-4279-9237-9859ab3f321c">
+                      <SHORT-NAME>Buffer_CANNODE_0_Tx_Std_MailBox_1</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg/CanIfBufferSize</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg/CanIfBufferHthRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfInitCfg/CanIfInitHohCfg/CANNODE_0_Tx_Std_MailBox_1</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="2f28f739-005b-4159-86be-279c14517ed2">
+                      <SHORT-NAME>BMS_Vol_5_CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduReadNotifyStatus</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduType</DEFINITION-REF>
+                          <VALUE>STATIC</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduTruncation</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduCanIdType</DEFINITION-REF>
+                          <VALUE>STANDARD_CAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduCanId</DEFINITION-REF>
+                          <VALUE>1348</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduUserTxConfirmationUL</DEFINITION-REF>
+                          <VALUE>PDUR</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduBufferRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfInitCfg/Buffer_CANNODE_0_Tx_Std_MailBox_1</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/BMS_Vol_5_CANNODE_0_PduR2CanIf</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="fea84587-0ae9-4baa-963d-fe2bb1bd2498">
+                      <SHORT-NAME>Buffer_CANNODE_0_Tx_Std_MailBox_2</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg/CanIfBufferSize</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg/CanIfBufferHthRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfInitCfg/CanIfInitHohCfg/CANNODE_0_Tx_Std_MailBox_2</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="e9f4930e-ae6b-4027-bab0-255f91090557">
+                      <SHORT-NAME>NMm_BMS_CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduReadNotifyStatus</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduType</DEFINITION-REF>
+                          <VALUE>STATIC</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduTruncation</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduCanIdType</DEFINITION-REF>
+                          <VALUE>STANDARD_CAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduCanId</DEFINITION-REF>
+                          <VALUE>1551</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduUserTxConfirmationUL</DEFINITION-REF>
+                          <VALUE>CAN_NM</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduBufferRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfInitCfg/Buffer_CANNODE_0_Tx_Std_MailBox_2</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/NMm_BMS_CANNODE_0_CanNm2CanIf</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="3baad21b-a647-4d4e-91f6-603a3fe29a86">
+                  <SHORT-NAME>CanIfCtrlDrvCfg</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg/CanIfRbCtrlDrvPrefix</DEFINITION-REF>
+                      <VALUE>CanConf_CanHardwareObject</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg/CanIfCtrlDrvNameRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/Can/Can/CanGeneral</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg/CanIfCtrlDrvInitHohConfigRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfInitCfg/CanIfInitHohCfg</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="d9c87d93-5862-444a-9247-d69acfa89615">
+                      <SHORT-NAME>CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg/CanIfCtrlCfg</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg/CanIfCtrlCfg/CanIfCtrlWakeupSupport</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg/CanIfCtrlCfg/CanIfCtrlCanCtrlRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/Can/Can/CanConfigSet/CANNODE_0</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="2e6dae94-8957-4f23-ad7c-d67aedf821c5">
+                  <SHORT-NAME>CanIfDispatchCfg</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfDispatchCfg</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfDispatchCfg/CanIfDispatchUserCtrlBusOffUL</DEFINITION-REF>
+                      <VALUE>CAN_SM</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfDispatchCfg/CanIfDispatchUserCtrlModeIndicationUL</DEFINITION-REF>
+                      <VALUE>CAN_SM</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfDispatchCfg/CanIfDispatchUserTrcvModeIndicationName</DEFINITION-REF>
+                      <VALUE>CAN_SM</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="d253cb22-11d3-4067-ba80-30edaab6955a">
+                  <SHORT-NAME>CanIfPrivateCfg</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPrivateCfg</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPrivateCfg/CanIfPrivateDlcCheck</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="6ac46f4d-4997-489f-9329-71d982ad3fc0">
+                  <SHORT-NAME>CanIfPublicCfg</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicReadRxPduDataApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicReadRxPduNotifyStatusApi</DEFINITION-REF>
+                      <VALUE>true</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicReadTxPduNotifyStatusApi</DEFINITION-REF>
+                      <VALUE>true</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicSetDynamicTxIdApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicTxBuffering</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicTxConfirmPollingSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicVersionInfoApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicCancelTransmitSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicErrorPassiveSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicCanIfLiteConfiguration</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicUserTpTxInOfflineMode</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicWakeupCheckValidSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicPnSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicBusoffRecoveryfromRxIndication</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfTriggerTransmitSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfTxOfflineActiveSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfWakeupSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg/CanIfPublicDevErrorDetect</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="dbb527e0-95bb-4759-8754-475dc44749ac">
+              <SHORT-NAME>CanSM</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM</DEFINITION-REF>
+              <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="a40240f8-03d9-4983-912a-ff68437db12a">
+                  <SHORT-NAME>CanSMConfiguration</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMModeRequestRepetitionMax</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMModeRequestRepetitionTime</DEFINITION-REF>
+                      <VALUE>0.07</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="2cf77823-1996-4baa-a0d1-79e8ddea3f7f">
+                      <SHORT-NAME>CanSMManagerNetwork_Can_NCluster</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMBorTxConfirmationPolling</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMBorCounterL1ToL2</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMBorTimeL1</DEFINITION-REF>
+                          <VALUE>0.04</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMBorTimeL2</DEFINITION-REF>
+                          <VALUE>0.1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMBorTimeTxEnsured</DEFINITION-REF>
+                          <VALUE>0.02</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMComMNetworkHandleRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/ComM/ComMConfigSet/ComMChannel_Can_NCluster_Channel</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="cd719a7c-8ad3-44e5-81a0-6971d8af4592">
+                          <SHORT-NAME>CanSMDemEventParameterRefs</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMDemEventParameterRefs</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-TEXTUAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMDemEventParameterRefs/CanSMRbDynCreate_CANSM_E_BUS_OFF</DEFINITION-REF>
+                              <VALUE>Standard</VALUE>
+                            </ECUC-TEXTUAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="dad04d36-ddd0-4b59-95f5-eb6b00867755">
+                          <SHORT-NAME>CanSMController_CANNODE_0</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMController</DEFINITION-REF>
+                          <REFERENCE-VALUES>
+                            <ECUC-REFERENCE-VALUE>
+                              <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMController/CanSMControllerId</DEFINITION-REF>
+                              <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/CanIf/CanIfCtrlDrvCfg/CANNODE_0</VALUE-REF>
+                            </ECUC-REFERENCE-VALUE>
+                          </REFERENCE-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="91e6a2cd-7bad-404c-a858-ebb556e1ede2">
+                  <SHORT-NAME>CanSMGeneral</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMGeneral</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMGeneral/CanSMMainFunctionTimePeriod</DEFINITION-REF>
+                      <VALUE>0.01</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMGeneral/CanSMVersionInfoApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMGeneral/CanSMDevErrorDetect</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="d6669a9c-f6ac-4c6f-8e65-c8bd5997eb5a">
+              <SHORT-NAME>PduR</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR</DEFINITION-REF>
+              <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="690c5451-d326-4d1a-b953-f84063b1e566">
+                  <SHORT-NAME>PduRGeneral</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRVersionInfoApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRZeroCostOperation</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRFifoTxBufferSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRIFGatewayOperation</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRTPGatewayOperation</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMemorySize</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMinimumRoutingLoRxPduId</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMinimumRoutingLoTxPduId</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMinimumRoutingUpRxPduId</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMinimumRoutingUpTxPduId</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMulticastFromIfSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMulticastFromTpSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMulticastToIfSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRMulticastToTpSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRSbTxBufferSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRQueueingSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRCanTpChangeParameterRequestApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRFrTpChangeParameterRequestApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRGwTpWithLimitedBuffer</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral/PduRDevErrorDetect</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="4f9a9d87-a590-4ab9-bb88-181b0f4e7ca3">
+                  <SHORT-NAME>PduRRoutingTables</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRConfigurationId</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="197107c5-9e8c-4c38-b8e7-2722179a1b1a">
+                      <SHORT-NAME>PduRRoutingTable</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable</DEFINITION-REF>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="754c8376-7bdc-47d5-b6ae-79c9a5ac1f30">
+                          <SHORT-NAME>TMR_3_CANNODE_0_CanIf2Com</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
+                          <SUB-CONTAINERS>
+                            <ECUC-CONTAINER-VALUE UUID="d47175fe-3bbf-4dcb-84d3-3b26f413dfa7">
+                              <SHORT-NAME>TMR_3_CANNODE_0_CanIf2PduR</SHORT-NAME>
+                              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
+                              <REFERENCE-VALUES>
+                                <ECUC-REFERENCE-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu/PduRSrcPduRef</DEFINITION-REF>
+                                  <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/TMR_3_CANNODE_0_CanIf2PduR</VALUE-REF>
+                                </ECUC-REFERENCE-VALUE>
+                              </REFERENCE-VALUES>
+                            </ECUC-CONTAINER-VALUE>
+                            <ECUC-CONTAINER-VALUE UUID="41433c8e-a913-4e51-bf6a-c6bce09222b0">
+                              <SHORT-NAME>TMR_3_CANNODE_0_PduR2Com</SHORT-NAME>
+                              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
+                              <PARAMETER-VALUES>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu/PduRTransmissionConfirmation</DEFINITION-REF>
+                                  <VALUE>false</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                              </PARAMETER-VALUES>
+                              <REFERENCE-VALUES>
+                                <ECUC-REFERENCE-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu/PduRDestPduRef</DEFINITION-REF>
+                                  <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/TMR_3_CANNODE_0_PduR2Com</VALUE-REF>
+                                </ECUC-REFERENCE-VALUE>
+                              </REFERENCE-VALUES>
+                            </ECUC-CONTAINER-VALUE>
+                          </SUB-CONTAINERS>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="635e2c5b-257b-4612-a7c0-96cab0cb2051">
+                          <SHORT-NAME>OBC_4_CANNODE_0_CanIf2Com</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
+                          <SUB-CONTAINERS>
+                            <ECUC-CONTAINER-VALUE UUID="9f75f393-f54e-4020-90ff-b7a43dc156b3">
+                              <SHORT-NAME>OBC_4_CANNODE_0_CanIf2PduR</SHORT-NAME>
+                              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
+                              <REFERENCE-VALUES>
+                                <ECUC-REFERENCE-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu/PduRSrcPduRef</DEFINITION-REF>
+                                  <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/OBC_4_CANNODE_0_CanIf2PduR</VALUE-REF>
+                                </ECUC-REFERENCE-VALUE>
+                              </REFERENCE-VALUES>
+                            </ECUC-CONTAINER-VALUE>
+                            <ECUC-CONTAINER-VALUE UUID="ab895f88-9264-410f-a9d0-12f9029af689">
+                              <SHORT-NAME>OBC_4_CANNODE_0_PduR2Com</SHORT-NAME>
+                              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
+                              <PARAMETER-VALUES>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu/PduRTransmissionConfirmation</DEFINITION-REF>
+                                  <VALUE>false</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                              </PARAMETER-VALUES>
+                              <REFERENCE-VALUES>
+                                <ECUC-REFERENCE-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu/PduRDestPduRef</DEFINITION-REF>
+                                  <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/OBC_4_CANNODE_0_PduR2Com</VALUE-REF>
+                                </ECUC-REFERENCE-VALUE>
+                              </REFERENCE-VALUES>
+                            </ECUC-CONTAINER-VALUE>
+                          </SUB-CONTAINERS>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="a5bc718b-d1db-4c14-9149-0e5771bd4acb">
+                          <SHORT-NAME>BMS_Vol_5_CANNODE_0_Com2CanIf</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
+                          <SUB-CONTAINERS>
+                            <ECUC-CONTAINER-VALUE UUID="d2b55892-2026-49cc-9d96-796ce146e9eb">
+                              <SHORT-NAME>BMS_Vol_5_CANNODE_0_Com2PduR</SHORT-NAME>
+                              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
+                              <REFERENCE-VALUES>
+                                <ECUC-REFERENCE-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu/PduRSrcPduRef</DEFINITION-REF>
+                                  <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/BMS_Vol_5_CANNODE_0_Com2PduR</VALUE-REF>
+                                </ECUC-REFERENCE-VALUE>
+                              </REFERENCE-VALUES>
+                            </ECUC-CONTAINER-VALUE>
+                            <ECUC-CONTAINER-VALUE UUID="bef166ca-8ce5-449e-afac-8c34c14094af">
+                              <SHORT-NAME>BMS_Vol_5_CANNODE_0_PduR2CanIf</SHORT-NAME>
+                              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
+                              <PARAMETER-VALUES>
+                                <ECUC-NUMERICAL-PARAM-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu/PduRTransmissionConfirmation</DEFINITION-REF>
+                                  <VALUE>false</VALUE>
+                                </ECUC-NUMERICAL-PARAM-VALUE>
+                              </PARAMETER-VALUES>
+                              <REFERENCE-VALUES>
+                                <ECUC-REFERENCE-VALUE>
+                                  <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu/PduRDestPduRef</DEFINITION-REF>
+                                  <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/BMS_Vol_5_CANNODE_0_PduR2CanIf</VALUE-REF>
+                                </ECUC-REFERENCE-VALUE>
+                              </REFERENCE-VALUES>
+                            </ECUC-CONTAINER-VALUE>
+                          </SUB-CONTAINERS>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="2ec0bce9-fe62-4507-ba3a-ed152081c8e1">
+                  <SHORT-NAME>CanNm</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCancelReceive</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCancelTransmit</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRChangeParameterApi</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCommunicationInterface</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRLowerModule</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRRetransmission</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTransportProtocol</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTriggertransmit</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTxConfirmation</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRUpperModule</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRUseTag</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRBswModuleRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-MODULE-CONFIGURATION-VALUES">/ETAS_Project/EcucModuleConfigurationValuess/CanNm</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="1ad6340b-2dd2-41e3-95df-69d564067922">
+                  <SHORT-NAME>CanIf</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCancelReceive</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCancelTransmit</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRChangeParameterApi</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCommunicationInterface</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRLowerModule</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRRetransmission</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTransportProtocol</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTriggertransmit</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTxConfirmation</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRUpperModule</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRUseTag</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRBswModuleRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-MODULE-CONFIGURATION-VALUES">/ETAS_Project/EcucModuleConfigurationValuess/CanIf</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="cb858ad2-ccd2-44e4-b549-7182951c2af8">
+                  <SHORT-NAME>Com</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCancelReceive</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCancelTransmit</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRChangeParameterApi</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRCommunicationInterface</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRLowerModule</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRRetransmission</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTransportProtocol</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTriggertransmit</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRTxConfirmation</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRUpperModule</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRUseTag</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules/PduRBswModuleRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-MODULE-CONFIGURATION-VALUES">/ETAS_Project/EcucModuleConfigurationValuess/Com</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="a7d19833-87dd-4e4e-b5ac-d9921a66750e">
+              <SHORT-NAME>EcuC</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC</DEFINITION-REF>
+              <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="d2ce007d-b1cb-4f52-9880-6e4b951f4106">
+                  <SHORT-NAME>EcucConfigSet</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet</DEFINITION-REF>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="27b26770-18fd-4f52-ae7e-b01706d06889">
+                      <SHORT-NAME>PduCollection</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/PduIdTypeEnum</DEFINITION-REF>
+                          <VALUE>uint16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/PduLengthTypeEnum</DEFINITION-REF>
+                          <VALUE>uint16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="435b12c0-56e6-4809-94b4-de93fd7cfef4">
+                          <SHORT-NAME>TMR_3_CANNODE_0_CanIf2PduR</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu/PduLength</DEFINITION-REF>
+                              <VALUE>8</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="fb481c29-f9e1-4692-9df1-c493b6b3df80">
+                          <SHORT-NAME>TMR_3_CANNODE_0_PduR2Com</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu/PduLength</DEFINITION-REF>
+                              <VALUE>8</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="7ca25b92-a29d-4bfd-8f9d-857644cfd6a3">
+                          <SHORT-NAME>NMm_CDU_CANNODE_0_CanIf2CanNm</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu/PduLength</DEFINITION-REF>
+                              <VALUE>8</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="e8dc6aa7-733c-4b5c-a719-639514ad8a56">
+                          <SHORT-NAME>OBC_4_CANNODE_0_CanIf2PduR</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu/PduLength</DEFINITION-REF>
+                              <VALUE>8</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="97126dc1-6cc3-4ab9-8480-ea55207ca1d1">
+                          <SHORT-NAME>OBC_4_CANNODE_0_PduR2Com</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu/PduLength</DEFINITION-REF>
+                              <VALUE>8</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="a92a6360-89ce-467d-83dc-7c1df1322bb7">
+                          <SHORT-NAME>BMS_Vol_5_CANNODE_0_Com2PduR</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu/PduLength</DEFINITION-REF>
+                              <VALUE>8</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="002b97d1-2de4-48b4-94ac-8a6b7c022b0f">
+                          <SHORT-NAME>BMS_Vol_5_CANNODE_0_PduR2CanIf</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu/PduLength</DEFINITION-REF>
+                              <VALUE>8</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="78c7b809-0c56-424a-9962-e3d6e3a5df45">
+                          <SHORT-NAME>NMm_BMS_CANNODE_0_CanNm2CanIf</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu/PduLength</DEFINITION-REF>
+                              <VALUE>8</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="373a0293-2daf-47b7-bcd6-7249bf7cf408">
+                  <SHORT-NAME>EcuCRbSettings</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcuCRbSettings</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcuCRbSettings/EcuCRbArRelease</DEFINITION-REF>
+                      <VALUE>AR42_Rev2</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcuCRbSettings/EcuCRbRteInUse</DEFINITION-REF>
+                      <VALUE>true</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="4faba062-239e-4885-ba7b-8d886c3bea1e">
+              <SHORT-NAME>Com</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com</DEFINITION-REF>
+              <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="fe096446-2fa4-485d-8bc0-51d02b92949e">
+                  <SHORT-NAME>ComConfig_0</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig</DEFINITION-REF>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="07752381-8c3f-46fe-8e98-ff9f2a514f8d">
+                      <SHORT-NAME>ComTimeBase</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComTimeBase</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComTimeBase/ComGwTimeBase</DEFINITION-REF>
+                          <VALUE>0.005</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComTimeBase/ComRxTimeBase</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComTimeBase/ComTxTimeBase</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="974a23c9-2eaf-42f8-9339-92e251f7b120">
+                      <SHORT-NAME>ComIPduGroup_Rx</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPduGroup</DEFINITION-REF>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="517f286f-c1c7-4701-aab8-d2df65da7ad1">
+                      <SHORT-NAME>TMR_3_CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalProcessing</DEFINITION-REF>
+                          <VALUE>IMMEDIATE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduType</DEFINITION-REF>
+                          <VALUE>NORMAL</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduDirection</DEFINITION-REF>
+                          <VALUE>RECEIVE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduGroupRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/ComIPduGroup_Rx</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComPduIdRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/TMR_3_CANNODE_0_PduR2Com</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/TMR_VoltageHV</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/TMR_CurrentHV</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="b735739f-c01e-4ccd-95d8-672dd3949a59">
+                      <SHORT-NAME>TMR_VoltageHV</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>10</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>12</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/TMR_3/TMR_VoltageHV</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="936c34bc-8dbd-4b8e-803a-325432301513">
+                      <SHORT-NAME>TMR_CurrentHV</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>1023</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>11</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>7</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/TMR_3/TMR_CurrentHV</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="663bb9d6-6c3e-46b5-92a5-fd92554116b7">
+                      <SHORT-NAME>OBC_4_CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalProcessing</DEFINITION-REF>
+                          <VALUE>IMMEDIATE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduType</DEFINITION-REF>
+                          <VALUE>NORMAL</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduDirection</DEFINITION-REF>
+                          <VALUE>RECEIVE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduGroupRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/ComIPduGroup_Rx</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComPduIdRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/OBC_4_CANNODE_0_PduR2Com</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/OBC_ChargeSourceMode</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/OBC_FaultCode</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/OBC_MaxOutputVoltage</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/OBC_MaxOutputCurrent</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="e422596c-eaa5-4503-befe-ee19a1bb6984">
+                      <SHORT-NAME>OBC_ChargeSourceMode</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT8</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>2</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>53</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/OBC_4/OBC_ChargeSourceMode</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="2b372156-43b8-4b19-8915-21105cd4b3c5">
+                      <SHORT-NAME>OBC_FaultCode</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT8</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>8</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>39</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/OBC_4/OBC_FaultCode</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="7865d321-f143-4d32-b764-a231af584042">
+                      <SHORT-NAME>OBC_MaxOutputVoltage</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>16</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>23</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/OBC_4/OBC_MaxOutputVoltage</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="3948810c-c2a9-477d-9e1b-17a618a40d3b">
+                      <SHORT-NAME>OBC_MaxOutputCurrent</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>16</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>7</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/OBC_4/OBC_MaxOutputCurrent</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="f362d1d6-26ee-47af-a906-efa81b4866a9">
+                      <SHORT-NAME>ComIPduGroup_Tx</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPduGroup</DEFINITION-REF>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="91383482-d407-4234-83d1-86c06d881eee">
+                      <SHORT-NAME>BMS_Vol_5_CANNODE_0</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalProcessing</DEFINITION-REF>
+                          <VALUE>IMMEDIATE</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduType</DEFINITION-REF>
+                          <VALUE>NORMAL</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduDirection</DEFINITION-REF>
+                          <VALUE>SEND</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComFirstTimeout</DEFINITION-REF>
+                          <VALUE>1.0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTimeout</DEFINITION-REF>
+                          <VALUE>1.0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduGroupRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/ComIPduGroup_Tx</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComPduIdRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/EcuC/EcucConfigSet/PduCollection/BMS_Vol_5_CANNODE_0_Com2PduR</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/BMS_BattCellOrder20Vol</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/BMS_BattCellOrder19Vol</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/BMS_BattCellOrder18Vol</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComIPduSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/Com/ComConfig_0/BMS_BattCellOrder17Vol</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="71fb7b8e-02ca-482c-af60-e63eb0dd5e68">
+                          <SHORT-NAME>ComTxIPdu</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComMinimumDelayTime</DEFINITION-REF>
+                              <VALUE>0.0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxIPduUnusedAreasDefault</DEFINITION-REF>
+                              <VALUE>255</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                          <SUB-CONTAINERS>
+                            <ECUC-CONTAINER-VALUE UUID="58f3c5e3-7b7c-4aa0-95f6-25b5009cd8b1">
+                              <SHORT-NAME>ComTxModeTrue</SHORT-NAME>
+                              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue</DEFINITION-REF>
+                              <SUB-CONTAINERS>
+                                <ECUC-CONTAINER-VALUE UUID="8084353b-296e-46cc-b3be-5ade25b6ce2b">
+                                  <SHORT-NAME>ComTxMode</SHORT-NAME>
+                                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode</DEFINITION-REF>
+                                  <PARAMETER-VALUES>
+                                    <ECUC-NUMERICAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimePeriod</DEFINITION-REF>
+                                      <VALUE>1.0</VALUE>
+                                    </ECUC-NUMERICAL-PARAM-VALUE>
+                                    <ECUC-TEXTUAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeMode</DEFINITION-REF>
+                                      <VALUE>PERIODIC</VALUE>
+                                    </ECUC-TEXTUAL-PARAM-VALUE>
+                                    <ECUC-NUMERICAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeNumberOfRepetitions</DEFINITION-REF>
+                                      <VALUE>0</VALUE>
+                                    </ECUC-NUMERICAL-PARAM-VALUE>
+                                    <ECUC-NUMERICAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeRepetitionPeriod</DEFINITION-REF>
+                                      <VALUE>0</VALUE>
+                                    </ECUC-NUMERICAL-PARAM-VALUE>
+                                    <ECUC-NUMERICAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode/ComTxModeTimeOffset</DEFINITION-REF>
+                                      <VALUE>0.0</VALUE>
+                                    </ECUC-NUMERICAL-PARAM-VALUE>
+                                  </PARAMETER-VALUES>
+                                </ECUC-CONTAINER-VALUE>
+                              </SUB-CONTAINERS>
+                            </ECUC-CONTAINER-VALUE>
+                            <ECUC-CONTAINER-VALUE UUID="a3bab4e6-ace9-4434-b8ff-b3a7740c9b4c">
+                              <SHORT-NAME>ComTxModeFalse</SHORT-NAME>
+                              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse</DEFINITION-REF>
+                              <SUB-CONTAINERS>
+                                <ECUC-CONTAINER-VALUE UUID="e3c2e82b-0c70-469f-be56-1cfb70be36e6">
+                                  <SHORT-NAME>ComTxMode</SHORT-NAME>
+                                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode</DEFINITION-REF>
+                                  <PARAMETER-VALUES>
+                                    <ECUC-NUMERICAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeTimePeriod</DEFINITION-REF>
+                                      <VALUE>1.0</VALUE>
+                                    </ECUC-NUMERICAL-PARAM-VALUE>
+                                    <ECUC-TEXTUAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeMode</DEFINITION-REF>
+                                      <VALUE>PERIODIC</VALUE>
+                                    </ECUC-TEXTUAL-PARAM-VALUE>
+                                    <ECUC-NUMERICAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeNumberOfRepetitions</DEFINITION-REF>
+                                      <VALUE>0</VALUE>
+                                    </ECUC-NUMERICAL-PARAM-VALUE>
+                                    <ECUC-NUMERICAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeRepetitionPeriod</DEFINITION-REF>
+                                      <VALUE>0</VALUE>
+                                    </ECUC-NUMERICAL-PARAM-VALUE>
+                                    <ECUC-NUMERICAL-PARAM-VALUE>
+                                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode/ComTxModeTimeOffset</DEFINITION-REF>
+                                      <VALUE>0.0</VALUE>
+                                    </ECUC-NUMERICAL-PARAM-VALUE>
+                                  </PARAMETER-VALUES>
+                                </ECUC-CONTAINER-VALUE>
+                              </SUB-CONTAINERS>
+                            </ECUC-CONTAINER-VALUE>
+                          </SUB-CONTAINERS>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="96515222-4c60-478f-a002-3ad5c70a3117">
+                      <SHORT-NAME>BMS_BattCellOrder20Vol</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>16</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>55</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_Vol_5/BMS_BattCellOrder20Vol</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="08cd1fbb-4d35-43a7-a3da-48454fe8dd0d">
+                      <SHORT-NAME>BMS_BattCellOrder19Vol</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>16</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>39</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_Vol_5/BMS_BattCellOrder19Vol</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="c19f26df-de16-4e40-a857-b0275336d7d4">
+                      <SHORT-NAME>BMS_BattCellOrder18Vol</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>16</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>23</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_Vol_5/BMS_BattCellOrder18Vol</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="dcf77619-a63c-4a07-9e4f-7b181b319fa9">
+                      <SHORT-NAME>BMS_BattCellOrder17Vol</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalInitValue</DEFINITION-REF>
+                          <VALUE>0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalType</DEFINITION-REF>
+                          <VALUE>UINT16</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSignalEndianness</DEFINITION-REF>
+                          <VALUE>BIG_ENDIAN</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitSize</DEFINITION-REF>
+                          <VALUE>16</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComBitPosition</DEFINITION-REF>
+                          <VALUE>7</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComUpdateBitPosition</DEFINITION-REF>
+                          <VALUE>-1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComTransferProperty</DEFINITION-REF>
+                          <VALUE>TRIGGERED</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                      <REFERENCE-VALUES>
+                        <ECUC-REFERENCE-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FOREIGN-REFERENCE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal/ComSystemTemplateSystemSignalRef</DEFINITION-REF>
+                          <VALUE-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_Vol_5/BMS_BattCellOrder17Vol</VALUE-REF>
+                        </ECUC-REFERENCE-VALUE>
+                      </REFERENCE-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="0d79092e-9d96-40f0-be3c-e7373c50aa8e">
+                  <SHORT-NAME>ComGeneral</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComGeneral</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComGeneral/ComVersionInfoApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComGeneral/ComCommonIPduTxPeriodFeature</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComGeneral/ComEnableJitterFilter</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComGeneral/ComEnableSignalGroupArrayApi</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComGeneral/ComCancellationSupport</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComGeneral/ComConfigurationUseDet</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="8a75cd84-4daa-4673-a7ff-d5810234ec7f">
+              <SHORT-NAME>Nm</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm</DEFINITION-REF>
+              <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="1166722e-85ef-430b-b86c-a0e0b0af003e">
+                  <SHORT-NAME>NmGlobalConfig</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig</DEFINITION-REF>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="0e427669-6bb7-4a71-893c-f6b3c342cbab">
+                      <SHORT-NAME>NmGlobalConstants</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalConstants</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalConstants/NmNumberOfChannels</DEFINITION-REF>
+                          <VALUE>1</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalConstants/NmRemoteSleepCancelCallback</DEFINITION-REF>
+                          <VALUE>TestNm_RemoteSleepCancellation</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalConstants/NmRemoteSleepIndCallback</DEFINITION-REF>
+                          <VALUE>TestNm_RemoteSleepIndication</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="e52aade5-54b3-42d0-a6f6-217149669d46">
+                      <SHORT-NAME>NmGlobalProperties</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalProperties</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalProperties/NmVersionInfoApi</DEFINITION-REF>
+                          <VALUE>true</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalProperties/NmCycletimeMainFunction</DEFINITION-REF>
+                          <VALUE>0.01</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalProperties/NmDevErrorDetect</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE UUID="a778ad12-0f86-45fa-855a-137440b0b35d">
+                      <SHORT-NAME>NmGlobalFeatures</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmCarWakeUpRxEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmComUserDataSupport</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmCoordinatorSupportEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmBusSynchronizationEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmComControlEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmCoordinatorSyncSupport</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmNodeDetectionEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmNodeIdEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmPassiveModeEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmPduRxIndicationEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmRemoteSleepIndEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmRepeatMsgIndEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmUserDataEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmGlobalConfig/NmGlobalFeatures/NmStateChangeIndEnabled</DEFINITION-REF>
+                          <VALUE>false</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="de1e9fe9-af6d-4908-87aa-a9fa57045540">
+                  <SHORT-NAME>NmChannelConfig_Can_NCluster_Channel</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig/NmChannelSleepMaster</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig/NmStateReportEnabled</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig/NmSynchronizingNetwork</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig/NmShutdownDelayTimer</DEFINITION-REF>
+                      <VALUE>0.0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig/NmComMChannelRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ETAS_Project/EcucModuleConfigurationValuess/ComM/ComMConfigSet/ComMChannel_Can_NCluster_Channel</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE UUID="db098ae0-9735-4531-8a3e-5d275f45db7b">
+                      <SHORT-NAME>NmBusType</SHORT-NAME>
+                      <DEFINITION-REF DEST="ECUC-CHOICE-CONTAINER-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig/NmBusType</DEFINITION-REF>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="cbab3c5f-9440-49e5-a07c-6a8c8fc7b52e">
+                          <SHORT-NAME>NmStandardBusNmConfig</SHORT-NAME>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig/NmBusType/NmStandardBusNmConfig</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-TEXTUAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/AUTOSAR_Nm/EcucModuleDefs/Nm/NmChannelConfig/NmBusType/NmStandardBusNmConfig/NmStandardBusType</DEFINITION-REF>
+                              <VALUE>NM_BUSNM_CANNM</VALUE>
+                            </ECUC-TEXTUAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+

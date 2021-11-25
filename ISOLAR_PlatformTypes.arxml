@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="68fcc52a-2deb-4065-94d8-86b24ebee679">
+      <SHORT-NAME>AUTOSAR_Platform</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="4f744885-a9bb-41b9-8675-0c658fc12d51">
+          <SHORT-NAME>DataConstraints</SHORT-NAME>
+          <ELEMENTS>
+            <DATA-CONSTR UUID="3ce1d693-9653-467f-b57f-ee3379502c49">
+              <SHORT-NAME>DataConstr_boolean</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>1</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>1</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR UUID="ff00c2d7-54f3-4c85-8078-de391f26120c">
+              <SHORT-NAME>DataConstr_sint16</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>-32768</LOWER-LIMIT>
+                    <UPPER-LIMIT>32767</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>-32768</LOWER-LIMIT>
+                    <UPPER-LIMIT>32767</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR UUID="35b7e406-b5d5-4fa4-8cf8-2aa6667151ff">
+              <SHORT-NAME>DataConstr_sint32</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>-2147483648</LOWER-LIMIT>
+                    <UPPER-LIMIT>2147483647</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>-2147483648</LOWER-LIMIT>
+                    <UPPER-LIMIT>2147483647</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR UUID="82199666-8ce6-4d84-b006-7389df42a00d">
+              <SHORT-NAME>DataConstr_sint64</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>-9223372036854775808</LOWER-LIMIT>
+                    <UPPER-LIMIT>9223372036854775807</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>-9223372036854775808</LOWER-LIMIT>
+                    <UPPER-LIMIT>9223372036854775807</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR UUID="fb8472fe-1844-4e16-a63c-8e28b64f4250">
+              <SHORT-NAME>DataConstr_sint8</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>-128</LOWER-LIMIT>
+                    <UPPER-LIMIT>127</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>-128</LOWER-LIMIT>
+                    <UPPER-LIMIT>127</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR UUID="0be70ae5-1857-498d-8538-e860d7f42828">
+              <SHORT-NAME>DataConstr_uint16</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>65535</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>65535</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR UUID="3eed5a86-8226-4ecb-9b27-9abb8bec11d1">
+              <SHORT-NAME>DataConstr_uint32</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>4294967295</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>4294967295</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR UUID="5674fad2-e84d-4a39-9a13-69a1adf079cc">
+              <SHORT-NAME>DataConstr_uint64</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>18446744073709551615</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>18446744073709551615</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR UUID="d5c017f9-0a4a-43cd-ae48-4c23b141e559">
+              <SHORT-NAME>DataConstr_uint8</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <PHYS-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255</UPPER-LIMIT>
+                  </PHYS-CONSTRS>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT>0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+
