@@ -1,0 +1,545 @@
+16:39:12,601 [INFO] --------------------------------------------------------------------------------------
+16:39:12,602 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:12,602 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:12,603 [INFO] --------------------------------------------------------------------------------------
+16:39:12,603 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanIf\scripts\templates\generateid\CanIf_GenerateId.oaw
+16:39:12,603 [INFO] 
+16:39:12,940 [INFO] BCTXtendComponent: executing 'templates::generateid::CanIf_GenerateId_Id'
+16:39:14,006 [INFO] workflow completed in 1066ms!
+16:39:14,051 [INFO] --------------------------------------------------------------------------------------
+16:39:14,052 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:14,052 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:14,052 [INFO] --------------------------------------------------------------------------------------
+16:39:14,053 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\ComM\scripts\templates\generateid\ComM_GenerateId.oaw
+16:39:14,053 [INFO] 
+16:39:14,337 [INFO] BCTXtendComponent: executing 'templates::generateid::ComM_GenerateId_Id'
+16:39:14,341 [INFO] workflow completed in 4ms!
+16:39:14,355 [INFO] --------------------------------------------------------------------------------------
+16:39:14,357 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:14,357 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:14,357 [INFO] --------------------------------------------------------------------------------------
+16:39:14,357 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CUCEL\ComStack\scripts\ComStack_Validate.oaw
+16:39:14,358 [INFO] 
+16:39:14,684 [INFO] BCTCheckComponent: slot model check file(s): ComStack_Validate 
+16:39:14,694 [INFO] workflow completed in 10ms!
+16:39:14,729 [INFO] --------------------------------------------------------------------------------------
+16:39:14,730 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:14,730 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:14,730 [INFO] --------------------------------------------------------------------------------------
+16:39:14,730 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\PduR\scripts\templates\forward\PduR_Forward.oaw
+16:39:14,731 [INFO] 
+16:39:15,051 [INFO] BCTXtendComponent: executing ' templates::forward::PduR_Forward'
+16:39:15,076 [INFO] >>> WARNING <<<: PduR forwarding to DEM not executed because 'PduR' or 'DEM' configuration is not available. Is this intended?
+16:39:15,077 [INFO] BCTXtendComponent: executing ' templates::forward::PduR_Forward'
+16:39:15,095 [INFO] PduRDsmReInitMainFunction is not forwarded as rba_ArxmlGen is not present or PduRDSMReInitEnabled is configured as False.
+16:39:15,095 [INFO] workflow completed in 44ms!
+16:39:15,107 [INFO] --------------------------------------------------------------------------------------
+16:39:15,108 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:15,108 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:15,108 [INFO] --------------------------------------------------------------------------------------
+16:39:15,109 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanSM\scripts\templates\generateid\CanSM_GenerateId.oaw
+16:39:15,109 [INFO] 
+16:39:15,438 [INFO] BCTXtendComponent: executing 'templates::generateid::CanSM::CanSM_GenerateId_Id'
+16:39:15,446 [INFO] >>> WARNING <<<: CanSM forwarding to DEM not executed because 'CanSM' or 'DEM' configuration is not available. Is this intended?
+16:39:15,446 [INFO] BCTXtendComponent: executing 'templates::forward::CanSM_GenerateId_Id'
+16:39:15,454 [INFO] workflow completed in 16ms!
+16:39:15,466 [INFO] --------------------------------------------------------------------------------------
+16:39:15,467 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:15,467 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:15,468 [INFO] --------------------------------------------------------------------------------------
+16:39:15,468 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\ComM\scripts\templates\forward\ComM_Forward.oaw
+16:39:15,468 [INFO] 
+16:39:15,749 [INFO] BCTXtendComponent: executing ' templates::ComM_Forward'
+16:39:15,757 [INFO] Starting forwarding of Number of ComM channels information into Measurement variables for ComM
+16:39:15,758 [INFO] forwarding of Number of user mode information into Measurement variables ComM_UserStruct
+16:39:15,759 [INFO] Forwarding User size Information into application data type of variable ComM_UserStruct
+16:39:15,760 [INFO] Forwarding User size Information into implementation data type of variable ComM_UserStruct
+16:39:15,762 [INFO] forwarding Number of channels information to Measurement variable ComM_ChannelStruct
+16:39:15,763 [INFO] Forwarding channel size to application data type of variable ComM_ChannelStruct
+16:39:15,764 [INFO] Forwarding channel size to implementation data type of variable ComM_ChannelStruct
+16:39:15,764 [INFO] BCTXtendComponent: executing ' templates::ComM_Forward'
+16:39:15,770 [INFO] Starting forwarding of Main functions and their periods for  ComM channels:
+16:39:15,776 [INFO] Forwarding of main functions and periods finished.
+16:39:15,777 [INFO] BCTXtendComponent: executing ' templates::ComM_Forward'
+16:39:15,782 [INFO] Forwarding callback information to Com
+16:39:15,786 [INFO] BCTXtendComponent: executing ' templates::ComM_Forward'
+16:39:15,791 [INFO] workflow completed in 42ms!
+16:39:15,818 [INFO] --------------------------------------------------------------------------------------
+16:39:15,819 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:15,819 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:15,820 [INFO] --------------------------------------------------------------------------------------
+16:39:15,820 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CUCEL\ComStack\scripts\ComStack_Generate.oaw
+16:39:15,820 [INFO] 
+16:39:16,117 [INFO] BCTCodeGenerator: generating 'ComStack_Types_h::Generate FOR model' => []
+16:39:16,132 [INFO] BCTCodeGenerator: generating 'ComStack_Cfg_h::Generate FOR model' => []
+16:39:16,136 [INFO] BCTCodeGenerator: generating 'ComStack_Types_arxml::Generate FOR model' => []
+16:39:16,144 [INFO] workflow completed in 27ms!
+16:39:16,159 [INFO] --------------------------------------------------------------------------------------
+16:39:16,160 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:16,160 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:16,160 [INFO] --------------------------------------------------------------------------------------
+16:39:16,160 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanIf\scripts\templates\forward\CanIf_Forward.oaw
+16:39:16,160 [INFO] 
+16:39:16,465 [INFO] BCTXtendComponent: executing ' templates::forward::CanIf_Forward_DemParams'
+16:39:16,495 [INFO] Forwarding of Implementation datatype containers of  CanIf_ControllerState
+16:39:16,499 [INFO] Forwarding of Application datatype containers of  CanIf_ControllerState
+16:39:16,504 [INFO] Forwarding of measurement containers of  CanIf_ControllerState
+16:39:16,509 [INFO] Forwarding of measurement containers of  CanIf_ControllerState finished successfully... Forwarding Text Entry values...
+16:39:16,511 [INFO] Forwarding of Implementation datatype containers of  CanIf_Prv_TxNotification_aen
+16:39:16,514 [INFO] Forwarding of Application datatype containers of  CanIf_Prv_TxNotification_aen
+16:39:16,517 [INFO] Forwarding of measurement containers of  CanIf_Prv_TxNotification_aen
+16:39:16,521 [INFO] Forwarding of measurement containers of  CanIf_Prv_TxNotification_aen finished successfully
+16:39:16,522 [INFO] BCTXtendComponent: executing 'templates::BSWMD::CanIf_BSWMD_Create'
+16:39:16,525 [INFO] ExtensionAdvice registered: PduR_CanIf_Aspects
+16:39:16,545 [INFO] workflow completed in 80ms!
+16:39:16,567 [INFO] --------------------------------------------------------------------------------------
+16:39:16,568 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:16,568 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:16,568 [INFO] --------------------------------------------------------------------------------------
+16:39:16,568 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanSM\scripts\templates\forward\CanSM_Forward.oaw
+16:39:16,568 [INFO] 
+16:39:16,842 [INFO] BCTXtendComponent: executing ' templates::forward::CanSM_Forward'
+16:39:16,847 [INFO] forwarding the values for measurement variables
+16:39:16,853 [INFO] forwarding the value of Number of can networks into Measurement variable of type Array of uint8
+16:39:16,856 [INFO] forwarding the value of Number of can networks into Measurement variable of type Array of Boolean
+16:39:16,858 [INFO] forwarding the value of Number of can networks into Measurement variable of type Array of enum
+16:39:16,861 [INFO] forwarding the value of Number of can networks into Measurement variable of type Array of structure
+16:39:16,862 [INFO] BCTXtendComponent: executing 'templates::forward::CanSM_Forward'
+16:39:16,868 [INFO] workflow completed in 26ms!
+16:39:16,900 [INFO] --------------------------------------------------------------------------------------
+16:39:16,901 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:16,901 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:16,901 [INFO] --------------------------------------------------------------------------------------
+16:39:16,901 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanSM\scripts\templates\validator\CanSM_Validate.oaw
+16:39:16,901 [INFO] 
+16:39:17,179 [INFO] BCTCheckComponent: slot model check file(s): templates::CanSM::validator::CanSM_Validate 
+16:39:17,181 [INFO] ExtensionAdvice registered: ComM_CanSM_Aspects
+16:39:17,181 [INFO] ExtensionAdvice registered: Com_CanSM_Aspects
+16:39:17,184 [INFO] ExtensionAdvice 'cantrcv_cansm_aspects' could not be found and will be ignored.
+16:39:17,185 [INFO] ExtensionAdvice 'dem_cansm_aspects' could not be found and will be ignored.
+16:39:17,186 [INFO] ExtensionAdvice registered: CanIf_CanSM_Aspects
+16:39:17,187 [INFO] ExtensionAdvice 'CanNm_CanSM_Aspects' could not be found and will be ignored.
+16:39:17,194 [INFO] workflow completed in 15ms!
+16:39:17,203 [INFO] --------------------------------------------------------------------------------------
+16:39:17,204 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:17,204 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:17,204 [INFO] --------------------------------------------------------------------------------------
+16:39:17,205 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\Com\scripts\templates\generateid\Com_GenerateId.oaw
+16:39:17,205 [INFO] 
+16:39:17,500 [INFO] BCTXtendComponent: executing 'templates::generateid::Com_GenerateId_Id'
+16:39:17,567 [INFO] workflow completed in 67ms!
+16:39:17,595 [INFO] --------------------------------------------------------------------------------------
+16:39:17,595 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:17,595 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:17,595 [INFO] --------------------------------------------------------------------------------------
+16:39:17,596 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanSM\scripts\templates\CanSM_Generate.oaw
+16:39:17,596 [INFO] 
+16:39:17,898 [INFO] BCTCodeGenerator: generating 'templates::CanSM::CanSM_Cfg_h::Generate FOR model.ecu.canSM' => []
+16:39:17,900 [INFO] ExtensionAdvice registered: ComM_CanSM_Aspects
+16:39:17,900 [INFO] ExtensionAdvice registered: Com_CanSM_Aspects
+16:39:17,900 [INFO] ExtensionAdvice 'cantrcv_cansm_aspects' could not be found and will be ignored.
+16:39:17,901 [INFO] ExtensionAdvice 'Dem_CanSM_Aspects' could not be found and will be ignored.
+16:39:17,901 [INFO] ExtensionAdvice registered: CanIf_CanSM_Aspects
+16:39:17,901 [INFO] ExtensionAdvice 'CanNm_CanSM_Aspects' could not be found and will be ignored.
+16:39:17,924 [INFO] BCTCodeGenerator: generating 'templates::CanSM::CanSM_PBcfg_c::Generate FOR model' => []
+16:39:17,925 [INFO] ExtensionAdvice registered: ComM_CanSM_Aspects
+16:39:17,945 [INFO] BCTCodeGenerator: generating 'templates::CanSM::CanSM_PBcfg_h::Generate FOR model.ecu.canSM' => []
+16:39:17,946 [INFO] ExtensionAdvice registered: ComM_CanSM_Aspects
+16:39:17,947 [INFO] ExtensionAdvice registered: Com_CanSM_Aspects
+16:39:17,947 [INFO] ExtensionAdvice 'cantrcv_cansm_aspects' could not be found and will be ignored.
+16:39:17,947 [INFO] ExtensionAdvice 'Dem_CanSM_Aspects' could not be found and will be ignored.
+16:39:17,948 [INFO] ExtensionAdvice registered: CanIf_CanSM_Aspects
+16:39:17,948 [INFO] ExtensionAdvice 'CanNm_CanSM_Aspects' could not be found and will be ignored.
+16:39:17,958 [INFO] workflow completed in 60ms!
+16:39:17,975 [INFO] --------------------------------------------------------------------------------------
+16:39:17,975 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:17,975 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:17,976 [INFO] --------------------------------------------------------------------------------------
+16:39:17,976 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\ComM\scripts\templates\validator\ComM_Validate.oaw
+16:39:17,976 [INFO] 
+16:39:18,269 [INFO] BCTCheckComponent: slot model check file(s): templates::ComM::validator::ComM_Validate 
+16:39:18,272 [INFO] ExtensionAdvice 'Nm_ComM_Aspects' could not be found and will be ignored.
+16:39:18,293 [INFO] workflow completed in 24ms!
+16:39:18,293 [WARN] [WARNING]: The ComMChannelComMChannel_Can_Cluster_Channel has ComMNmVariant configured as 'None'.Channel with 'None' will never go to NO_COMMUNICATION.check if this is the intended behaviour.(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@45aee8ab (shortName: ComMChannel_Can_Cluster_Channel) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:18,305 [INFO] --------------------------------------------------------------------------------------
+16:39:18,306 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:18,306 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:18,306 [INFO] --------------------------------------------------------------------------------------
+16:39:18,306 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\PduR\scripts\templates\generateid\PduR_GenerateId.oaw
+16:39:18,307 [INFO] 
+16:39:18,580 [INFO] BCTXtendComponent: executing 'templates::generateid::PduR_GenerateId_Id'
+16:39:18,581 [INFO] ExtensionAdvice registered: CanIf_PduR_Aspects
+16:39:18,583 [INFO] ExtensionAdvice 'FrIf_PduR_Aspects' could not be found and will be ignored.
+16:39:18,585 [INFO] ExtensionAdvice 'LinIf_PduR_Aspects' could not be found and will be ignored.
+16:39:18,586 [INFO] ExtensionAdvice 'CanTp_PduR_Aspects' could not be found and will be ignored.
+16:39:18,587 [INFO] ExtensionAdvice 'CanNm_PduR_Aspects' could not be found and will be ignored.
+16:39:18,588 [INFO] ExtensionAdvice 'FrNm_PduR_Aspects' could not be found and will be ignored.
+16:39:18,589 [INFO] ExtensionAdvice 'IpduM_PduR_Aspects' could not be found and will be ignored.
+16:39:18,590 [INFO] ExtensionAdvice 'LinIf_Tp_PduR_Aspects' could not be found and will be ignored.
+16:39:18,591 [INFO] ExtensionAdvice 'FrTp_PduR_Aspects' could not be found and will be ignored.
+16:39:18,592 [INFO] ExtensionAdvice 'J1939Tp_PduR_Aspects' could not be found and will be ignored.
+16:39:18,593 [INFO] ExtensionAdvice 'SoAd_PduR_Aspects' could not be found and will be ignored.
+16:39:18,594 [INFO] ExtensionAdvice 'UdpNm_PduR_Aspects' could not be found and will be ignored.
+16:39:18,595 [INFO] ExtensionAdvice 'Dcm_PduR_Aspects' could not be found and will be ignored.
+16:39:18,596 [INFO] ExtensionAdvice registered: Com_PduR_Aspects
+16:39:18,598 [INFO] ExtensionAdvice 'Rba_Psi5If_PduR_Aspects' could not be found and will be ignored.
+16:39:18,599 [INFO] ExtensionAdvice 'Dlt_PduR_Aspects' could not be found and will be ignored.
+16:39:18,600 [INFO] ExtensionAdvice 'DoIP_PduR_Aspects' could not be found and will be ignored.
+16:39:18,601 [INFO] ExtensionAdvice 'LdCom_PduR_Aspects' could not be found and will be ignored.
+16:39:18,602 [INFO] ExtensionAdvice 'J1939Rm_PduR_Aspects' could not be found and will be ignored.
+16:39:18,603 [INFO] ExtensionAdvice 'J1939Dcm_PduR_Aspects' could not be found and will be ignored.
+16:39:18,664 [INFO] [PDUR : INFO ] Total number of routing Paths : 2
+16:39:18,664 [INFO] [PDUR : INFO ] Total number of PduRSrcPdu : 2
+16:39:18,665 [INFO] [PDUR : INFO ] Total number of PduRDestPdu : 2
+16:39:18,665 [INFO] [PDUR : INFO ] Total number of PduRSrcPdu & PduRDestPdu : 4
+16:39:18,665 [INFO] [PDUR : INFO ] Total number of Pdus referred by PduR : 4
+16:39:18,665 [INFO] [PDUR : INFO ] Total number of linked Bsw Pdus : 4
+16:39:18,665 [INFO] [PDUR : INFO ] Total number of linked pduR Pdus : 4
+16:39:18,666 [INFO] [PDUR : INFO ] Validating linked Pdu /AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg/CanIfRxPduRef
+16:39:18,669 [INFO] [PDUR : INFO ] Validating linked Pdu /AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComPduIdRef
+16:39:18,670 [INFO] [PDUR : INFO ] Validating linked Pdu /AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComPduIdRef
+16:39:18,670 [INFO] [PDUR : INFO ] Validating linked Pdu /AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg/CanIfTxPduRef
+16:39:18,673 [INFO] [PDUR : INFO ] Assigning owner module to Src Pdu of routing path TMR_3_CANNODE_0_CanIf2Com
+16:39:18,676 [INFO] [PDUR : INFO ]  Setting the logical owner of bsw::PduRModule::PduRSrcPduTMR_3_CANNODE_0_CanIf2PduR as CanIf
+16:39:18,677 [INFO] [PDUR : INFO ] Assigning owner module to Src Pdu of routing path BMS_Tem_4_CANNODE_0_Com2CanIf
+16:39:18,677 [INFO] [PDUR : INFO ]  Setting the logical owner of bsw::PduRModule::PduRSrcPduBMS_Tem_4_CANNODE_0_Com2PduR as Com
+16:39:18,678 [INFO] [PDUR : INFO ] Assigning owner module to PduRDestPdu TMR_3_CANNODE_0_PduR2Com of routing path TMR_3_CANNODE_0_CanIf2Com
+16:39:18,679 [INFO] [PDUR : INFO ]  Setting the logical owner of bsw::PduRModule::PduRDestPduTMR_3_CANNODE_0_PduR2Com as Com
+16:39:18,680 [INFO] [PDUR : INFO ] Assigning owner module to PduRDestPdu BMS_Tem_4_CANNODE_0_PduR2CanIf of routing path BMS_Tem_4_CANNODE_0_Com2CanIf
+16:39:18,680 [INFO] [PDUR : INFO ]  Setting the logical owner of bsw::PduRModule::PduRDestPduBMS_Tem_4_CANNODE_0_PduR2CanIf as CanIf
+16:39:18,681 [INFO] [PDUR : INFO ] Total number of SrcPdu & DestPdu inside PduR is 4
+16:39:18,682 [INFO] [PDUR : INFO ] Modules owning routing paths are
+16:39:18,682 [INFO] [PDUR : INFO ] [CanIf, Com]
+16:39:18,682 [INFO] [PDUR : INFO ] Assigning PduR HandleIds
+16:39:18,682 [INFO] [PDUR : INFO ] Assigning HandleIds to all PduR Pdus owned by CanIf
+16:39:18,683 [INFO] [PDUR : INFO ] Assigning PduRSourcePduHandleId to all PduRSrcPdus owned by CanIf
+16:39:18,684 [INFO] [PDUR : INFO ] Assigning PduRSourcePduHandleId to PduRSrcPdu : TMR_3_CANNODE_0_CanIf2PduR -> 0
+16:39:18,685 [INFO] [PDUR : INFO ] Assigning PduRDestPduHandleId to all PduRPduRDestPdus owned by CanIf
+16:39:18,686 [INFO] [PDUR : INFO ] Assigning PduRDestPduHandleId to PduRDestPdu : BMS_Tem_4_CANNODE_0_PduR2CanIf -> 0
+16:39:18,687 [INFO] [PDUR : INFO ] Assigning HandleIds to all PduR Pdus owned by Com
+16:39:18,687 [INFO] [PDUR : INFO ] Assigning PduRSourcePduHandleId to all PduRSrcPdus owned by Com
+16:39:18,688 [INFO] [PDUR : INFO ] Assigning PduRSourcePduHandleId to PduRSrcPdu : BMS_Tem_4_CANNODE_0_Com2PduR -> 0
+16:39:18,689 [INFO] [PDUR : INFO ] Assigning PduRDestPduHandleId to all PduRPduRDestPdus owned by Com
+16:39:18,689 [INFO] [PDUR : INFO ] Assigning PduRDestPduHandleId to PduRDestPdu : TMR_3_CANNODE_0_PduR2Com -> 0
+16:39:18,690 [INFO] [PDUR : INFO ] Assigning PduRRoutingPathGroupId to PduRRoutingPathGroups
+16:39:18,690 [INFO] [PDUR : INFO ] Assigning PduRTpPoolHandleId to PduRTpBufferPools
+16:39:18,690 [INFO] workflow completed in 110ms!
+16:39:18,715 [INFO] --------------------------------------------------------------------------------------
+16:39:18,716 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:18,716 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:18,716 [INFO] --------------------------------------------------------------------------------------
+16:39:18,716 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanIf\scripts\templates\validator\CanIf_Validate.oaw
+16:39:18,716 [INFO] 
+16:39:19,009 [INFO] BCTCheckComponent: slot model check file(s): templates::CanIf::validator::CanIf_Validate 
+16:39:19,011 [INFO] ExtensionAdvice 'CanTp_CanIf_Aspects' could not be found and will be ignored.
+16:39:19,012 [INFO] ExtensionAdvice 'CanNm_CanIf_Aspects' could not be found and will be ignored.
+16:39:19,013 [INFO] ExtensionAdvice 'J1939Nm_CanIf_Aspects' could not be found and will be ignored.
+16:39:19,014 [INFO] ExtensionAdvice 'CanTrcv_CanIf_Aspects' could not be found and will be ignored.
+16:39:19,015 [INFO] ExtensionAdvice 'Xcp_CanIf_Aspects' could not be found and will be ignored.
+16:39:19,016 [INFO] ExtensionAdvice registered: CanSM_CanIf_Aspects
+16:39:19,017 [INFO] ExtensionAdvice 'Can_CanIf_Aspects' could not be found and will be ignored.
+16:39:19,018 [INFO] ExtensionAdvice 'J1939Tp_CanIf_Aspects' could not be found and will be ignored.
+16:39:19,019 [INFO] ExtensionAdvice registered: PduR_CanIf_Aspects
+16:39:19,020 [INFO] ExtensionAdvice 'CanIf_Aspects_PBL' could not be found and will be ignored.
+16:39:19,100 [INFO] workflow completed in 92ms!
+16:39:19,100 [WARN] [WARNING]: INFO: : "CanIfBusOffNotification" is configured True. CAN_SM is the default UL for Bus-off Notification,
+  "CanSM_ControllerBusOff" shall be the default "canIfDispatchUserCtrlBusOffName" for Bus-Off Notifications(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@367eb26e (shortName: CanIfDispatchCfg) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:19,120 [INFO] --------------------------------------------------------------------------------------
+16:39:19,121 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:19,121 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:19,121 [INFO] --------------------------------------------------------------------------------------
+16:39:19,121 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\ComM\scripts\templates\ComM_Generate.oaw
+16:39:19,121 [INFO] 
+16:39:19,403 [INFO] BCTCodeGenerator: generating 'templates::ComM::ComM_Root::Root FOR model' => []
+16:39:19,404 [INFO] ExtensionAdvice 'Nm_ComM_Aspects' could not be found and will be ignored.
+16:39:19,429 [INFO] BCTCodeGenerator: generating 'arxml::ComM_Cfg_Swcd_arxml::Generate FOR model' => []
+16:39:19,430 [INFO] ExtensionAdvice 'Nm_ComM_Aspects' could not be found and will be ignored.
+16:39:19,438 [INFO] BCTCodeGenerator: generating 'arxml::ComM_BSWMD_arxml::Generate FOR model' => []
+16:39:19,440 [INFO] ExtensionAdvice '' could not be found and will be ignored.
+16:39:19,447 [INFO] workflow completed in 44ms!
+16:39:19,458 [INFO] --------------------------------------------------------------------------------------
+16:39:19,459 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:19,460 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:19,460 [INFO] --------------------------------------------------------------------------------------
+16:39:19,460 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\ComM\scripts\templates\ComM_Generate_PB.oaw
+16:39:19,460 [INFO] 
+16:39:19,767 [INFO] BCTCodeGenerator: generating 'templates::ComM::ComM_Root::Root_PB FOR model' => []
+16:39:19,768 [INFO] ExtensionAdvice 'Nm_ComM_Aspects' could not be found and will be ignored.
+16:39:19,785 [INFO] workflow completed in 18ms!
+16:39:19,811 [INFO] --------------------------------------------------------------------------------------
+16:39:19,812 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:19,812 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:19,812 [INFO] --------------------------------------------------------------------------------------
+16:39:19,812 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\Com\scripts\templates\validator\Com_Validate.oaw
+16:39:19,812 [INFO] 
+16:39:20,111 [INFO] BCTCheckComponent: slot model check file(s): templates::Com::validator::Com_Validate_ComConfig_Var1 templates::Com::validator::Com_Validate_ComIpduGroup_Var1 templates::Com::validator::Com_Validate_ComIpdu_Var1 templates::Com::validator::Com_Validate_ComSignal_Var1 templates::Com::validator::Com_Validate_ComGroupSignal_Var1 templates::Com::validator::Com_Validate_ComSignalGroup_Var1 templates::Com::validator::Com_Validate_Noti_Uniquness_Var1 templates::Com::validator::Com_Validate_ComGwMapping_Var1 
+16:39:20,223 [INFO] workflow completed in 113ms!
+16:39:20,224 [WARN] [WARNING]:  ComSignal [ BMS_BattTempSensorOrder32 ] :The Signal [ BMS_BattTempSensorOrder32 ] is Configured with Transfer Property[TRIGGERED] then the IPdu [BMS_Tem_4_CANNODE_0]'s
+transmission mode should be DIRECT/MIXED/MIXED_PHASE_SHIFT in False/True mode(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@13cb2a0 (shortName: BMS_BattTempSensorOrder32) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:20,224 [WARN] [WARNING]:  ComSignal [ BMS_BattTempSensorOrder31 ] :The Signal [ BMS_BattTempSensorOrder31 ] is Configured with Transfer Property[TRIGGERED] then the IPdu [BMS_Tem_4_CANNODE_0]'s
+transmission mode should be DIRECT/MIXED/MIXED_PHASE_SHIFT in False/True mode(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@3052da35 (shortName: BMS_BattTempSensorOrder31) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:20,224 [WARN] [WARNING]:  ComSignal [ BMS_BattTempSensorOrder30 ] :The Signal [ BMS_BattTempSensorOrder30 ] is Configured with Transfer Property[TRIGGERED] then the IPdu [BMS_Tem_4_CANNODE_0]'s
+transmission mode should be DIRECT/MIXED/MIXED_PHASE_SHIFT in False/True mode(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@78fc41a3 (shortName: BMS_BattTempSensorOrder30) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:20,224 [WARN] [WARNING]:  ComSignal [ BMS_BattTempSensorOrder29 ] :The Signal [ BMS_BattTempSensorOrder29 ] is Configured with Transfer Property[TRIGGERED] then the IPdu [BMS_Tem_4_CANNODE_0]'s
+transmission mode should be DIRECT/MIXED/MIXED_PHASE_SHIFT in False/True mode(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@194ae023 (shortName: BMS_BattTempSensorOrder29) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:20,225 [WARN] [WARNING]:  ComSignal [ BMS_BattTempSensorOrder28 ] :The Signal [ BMS_BattTempSensorOrder28 ] is Configured with Transfer Property[TRIGGERED] then the IPdu [BMS_Tem_4_CANNODE_0]'s
+transmission mode should be DIRECT/MIXED/MIXED_PHASE_SHIFT in False/True mode(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@7d87f818 (shortName: BMS_BattTempSensorOrder28) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:20,225 [WARN] [WARNING]:  ComSignal [ BMS_BattTempSensorOrder27 ] :The Signal [ BMS_BattTempSensorOrder27 ] is Configured with Transfer Property[TRIGGERED] then the IPdu [BMS_Tem_4_CANNODE_0]'s
+transmission mode should be DIRECT/MIXED/MIXED_PHASE_SHIFT in False/True mode(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@5ba206ef (shortName: BMS_BattTempSensorOrder27) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:20,225 [WARN] [WARNING]:  ComSignal [ BMS_BattTempSensorOrder26 ] :The Signal [ BMS_BattTempSensorOrder26 ] is Configured with Transfer Property[TRIGGERED] then the IPdu [BMS_Tem_4_CANNODE_0]'s
+transmission mode should be DIRECT/MIXED/MIXED_PHASE_SHIFT in False/True mode(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@41c9b561 (shortName: BMS_BattTempSensorOrder26) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:20,225 [WARN] [WARNING]:  ComSignal [ BMS_BattTempSensorOrder25 ] :The Signal [ BMS_BattTempSensorOrder25 ] is Configured with Transfer Property[TRIGGERED] then the IPdu [BMS_Tem_4_CANNODE_0]'s
+transmission mode should be DIRECT/MIXED/MIXED_PHASE_SHIFT in False/True mode(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@fcc0e83 (shortName: BMS_BattTempSensorOrder25) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:20,243 [INFO] --------------------------------------------------------------------------------------
+16:39:20,244 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:20,244 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:20,244 [INFO] --------------------------------------------------------------------------------------
+16:39:20,244 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\PduR\scripts\templates\validator\PduR_Validate.oaw
+16:39:20,244 [INFO] 
+16:39:20,546 [INFO] BCTCheckComponent: slot model check file(s): templates::PduR::validator::PduR_Validate_Var1 
+16:39:20,547 [INFO] ExtensionAdvice registered: CanIf_PduR_Aspects
+16:39:20,548 [INFO] ExtensionAdvice 'FrIf_PduR_Aspects' could not be found and will be ignored.
+16:39:20,548 [INFO] ExtensionAdvice 'LinIf_PduR_Aspects' could not be found and will be ignored.
+16:39:20,548 [INFO] ExtensionAdvice 'CanTp_PduR_Aspects' could not be found and will be ignored.
+16:39:20,548 [INFO] ExtensionAdvice 'CanNm_PduR_Aspects' could not be found and will be ignored.
+16:39:20,548 [INFO] ExtensionAdvice 'FrNm_PduR_Aspects' could not be found and will be ignored.
+16:39:20,548 [INFO] ExtensionAdvice 'IpduM_PduR_Aspects' could not be found and will be ignored.
+16:39:20,549 [INFO] ExtensionAdvice 'LinIf_Tp_PduR_Aspects' could not be found and will be ignored.
+16:39:20,549 [INFO] ExtensionAdvice 'FrTp_PduR_Aspects' could not be found and will be ignored.
+16:39:20,549 [INFO] ExtensionAdvice 'J1939Tp_PduR_Aspects' could not be found and will be ignored.
+16:39:20,549 [INFO] ExtensionAdvice 'SoAd_PduR_Aspects' could not be found and will be ignored.
+16:39:20,549 [INFO] ExtensionAdvice 'UdpNm_PduR_Aspects' could not be found and will be ignored.
+16:39:20,549 [INFO] ExtensionAdvice 'Dcm_PduR_Aspects' could not be found and will be ignored.
+16:39:20,550 [INFO] ExtensionAdvice registered: Com_PduR_Aspects
+16:39:20,550 [INFO] ExtensionAdvice 'Rba_Psi5If_PduR_Aspects' could not be found and will be ignored.
+16:39:20,551 [INFO] ExtensionAdvice 'Dlt_PduR_Aspects' could not be found and will be ignored.
+16:39:20,551 [INFO] ExtensionAdvice 'DoIP_PduR_Aspects' could not be found and will be ignored.
+16:39:20,551 [INFO] ExtensionAdvice 'LdCom_PduR_Aspects' could not be found and will be ignored.
+16:39:20,553 [INFO] ExtensionAdvice 'PduR_Aspects_PBL' could not be found and will be ignored.
+16:39:20,553 [INFO] ExtensionAdvice 'J1939Rm_PduR_Aspects' could not be found and will be ignored.
+16:39:20,554 [INFO] ExtensionAdvice 'J1939Dcm_PduR_Aspects' could not be found and will be ignored.
+16:39:20,717 [INFO] workflow completed in 171ms!
+16:39:20,747 [INFO] --------------------------------------------------------------------------------------
+16:39:20,748 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:20,748 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:20,748 [INFO] --------------------------------------------------------------------------------------
+16:39:20,748 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanIf\scripts\templates\CanIf_Generate.oaw
+16:39:20,749 [INFO] 
+16:39:21,015 [INFO] BCTCodeGenerator: generating 'templates::CanIf::CanIf_Cfg_h::Generate FOR model' => []
+16:39:21,029 [INFO] ExtensionAdvice 'CanTp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,030 [INFO] ExtensionAdvice 'CanNm_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,030 [INFO] ExtensionAdvice 'J1939Nm_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,030 [INFO] ExtensionAdvice 'Xcp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,030 [INFO] ExtensionAdvice 'J1939Tp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,031 [INFO] ExtensionAdvice registered: PduR_CanIf_Aspects
+16:39:21,031 [INFO] ExtensionAdvice ' cantrcv_canif_aspects' could not be found and will be ignored.
+16:39:21,033 [INFO] ExtensionAdvice ' CanTSyn_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,083 [INFO] BCTCodeGenerator: generating 'templates::CanIf::CanIf_Generate_Report::Generate FOR model' => C:\Users\SH100292\AppData\Local\Temp\ETASData\temp\CanIf
+16:39:21,084 [INFO] ExtensionAdvice 'CanTp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,085 [INFO] ExtensionAdvice 'CanNm_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,085 [INFO] ExtensionAdvice 'J1939Nm_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,085 [INFO] ExtensionAdvice 'Xcp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,085 [INFO] ExtensionAdvice 'J1939Tp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,086 [INFO] ExtensionAdvice registered: PduR_CanIf_Aspects
+16:39:21,086 [INFO] ExtensionAdvice 'cantrcv_canif_aspects' could not be found and will be ignored.
+16:39:21,086 [INFO] ExtensionAdvice 'CanTSyn_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,086 [INFO] ExtensionAdvice 'Can_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,087 [INFO] ExtensionAdvice 'rba_Can_Generate_Utils' could not be found and will be ignored.
+16:39:21,117 [INFO] workflow completed in 102ms!
+16:39:21,125 [INFO] --------------------------------------------------------------------------------------
+16:39:21,126 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:21,126 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:21,127 [INFO] --------------------------------------------------------------------------------------
+16:39:21,127 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CanStack\CanIf\scripts\templates\CanIf_Generate_PB.oaw
+16:39:21,127 [INFO] 
+16:39:21,439 [INFO] BCTCodeGenerator: generating 'templates::CanIf::CanIf_PBcfg_h::Generate FOR model' => C:\Users\SH100292\AppData\Local\Temp\ETASData\temp\CanIf
+16:39:21,441 [INFO] ExtensionAdvice 'CanTp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,442 [INFO] ExtensionAdvice 'CanNm_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,442 [INFO] ExtensionAdvice 'J1939Nm_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,442 [INFO] ExtensionAdvice 'Xcp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,442 [INFO] ExtensionAdvice 'J1939Tp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,443 [INFO] ExtensionAdvice registered: PduR_CanIf_Aspects
+16:39:21,444 [INFO] ExtensionAdvice ' cantrcv_canif_aspects' could not be found and will be ignored.
+16:39:21,444 [INFO] ExtensionAdvice 'CanTSyn_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,444 [INFO] ExtensionAdvice 'CanTSyn_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,461 [INFO] BCTCodeGenerator: generating 'templates::CanIf::CanIf_PBcfg_c::Generate FOR model' => []
+16:39:21,462 [INFO] ExtensionAdvice 'CanTp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,462 [INFO] ExtensionAdvice 'CanNm_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,462 [INFO] ExtensionAdvice 'J1939Nm_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,462 [INFO] ExtensionAdvice 'Xcp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,462 [INFO] ExtensionAdvice 'J1939Tp_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,463 [INFO] ExtensionAdvice registered: PduR_CanIf_Aspects
+16:39:21,463 [INFO] ExtensionAdvice 'cantrcv_canif_aspects' could not be found and will be ignored.
+16:39:21,463 [INFO] ExtensionAdvice 'CanTSyn_CanIf_Aspects' could not be found and will be ignored.
+16:39:21,518 [INFO] workflow completed in 79ms!
+16:39:21,528 [INFO] --------------------------------------------------------------------------------------
+16:39:21,528 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:21,528 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:21,528 [INFO] --------------------------------------------------------------------------------------
+16:39:21,528 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\Com\scripts\templates\forward\Com_Forward.oaw
+16:39:21,529 [INFO] 
+16:39:21,837 [INFO] BCTXtendComponent: executing 'templates::forward::Com_Cfg_Bswmd_Create'
+16:39:21,879 [INFO] No forwarding of calibration parameters performed as ComIPduControlViaCalibration is disabled 
+16:39:21,880 [INFO] No forwarding of calibration parameters for Tx periodic Pdus performed as ComTxModeCyclePeriodCalibration is disabled 
+16:39:21,881 [INFO] No forwarding of calibration parameters for Rx Pdus performed as ComRxIpduTimeoutCalibration is disabled 
+16:39:21,881 [INFO] No forwarding of calibration parameters for TxTimeOffset for periodic Pdus performed as comTxModeTimeOffsetCalibration is disabled 
+16:39:21,882 [INFO] No forwarding of calibration parameters for Tx Repetition Ipdus performed as ComTxIpduNumberOfRepetition is disabled 
+16:39:21,900 [INFO] Forwarding of all the implementation and application data types successful 
+16:39:21,902 [INFO] Forwarding Tx Ipdu buffers as Measurement parameters successful
+16:39:21,905 [INFO] Forwarding Rx Local Ipdu buffers as Measurement parameters successful
+16:39:21,906 [INFO] No Gw configuration available, Hence rba_ArxmlGen_ExecEntity for GwMainfunction will not be created 
+16:39:21,913 [INFO] Forwarding MainFunction period into rba_ArxmlGen_ExecEntity BSWSE_MainFunctionRx
+16:39:21,915 [INFO] Forwarding MainFunction period into rba_ArxmlGen_ExecEntity BSWSE_MainFunctionTx
+16:39:21,917 [INFO] workflow completed in 80ms!
+16:39:21,944 [INFO] --------------------------------------------------------------------------------------
+16:39:21,944 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:21,945 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:21,945 [INFO] --------------------------------------------------------------------------------------
+16:39:21,945 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\Com\scripts\templates\Com_Generate.oaw
+16:39:21,945 [INFO] 
+16:39:22,264 [INFO] BCTCodeGenerator: generating 'templates::Com::Com_Root_Cfg_c::Generate FOR model' => []
+16:39:22,294 [INFO] BCTCodeGenerator: generating 'templates::Com::Com_Root_Cfg_h::Generate FOR model' => []
+16:39:22,374 [INFO] BCTCodeGenerator: generating 'Com::templates::forward::Com_Flatmap::Generate FOR model' => []
+16:39:22,390 [INFO] BCTCodeGenerator: generating 'templates::Com::com_cfgc::Com_BSWMD_arxml::Generate FOR model' => []
+16:39:22,405 [INFO] workflow completed in 141ms!
+16:39:22,416 [INFO] --------------------------------------------------------------------------------------
+16:39:22,416 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:22,417 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:22,417 [INFO] --------------------------------------------------------------------------------------
+16:39:22,417 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\Com\scripts\templates\Com_Generate_PB.oaw
+16:39:22,417 [INFO] 
+16:39:22,692 [INFO] BCTCodeGenerator: generating 'templates::Com::Com_Root_Cfg_c::Generate_PB FOR model' => []
+16:39:22,794 [INFO] BCTCodeGenerator: generating 'templates::Com::Com_Root_Cfg_h::Generate_PB FOR model' => []
+16:39:22,845 [INFO] workflow completed in 153ms!
+16:39:22,854 [INFO] --------------------------------------------------------------------------------------
+16:39:22,854 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:22,854 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:22,855 [INFO] --------------------------------------------------------------------------------------
+16:39:22,855 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\PduR\scripts\templates\PduR_Generate.oaw
+16:39:22,855 [INFO] 
+16:39:23,166 [INFO] BCTCodeGenerator: generating 'templates::PduR::PduR_MainXpand::PduRMain(var1) FOR model' => []
+16:39:23,167 [INFO] ExtensionAdvice registered: CanIf_PduR_Aspects
+16:39:23,167 [INFO] ExtensionAdvice 'FrIf_PduR_Aspects' could not be found and will be ignored.
+16:39:23,168 [INFO] ExtensionAdvice 'LinIf_PduR_Aspects' could not be found and will be ignored.
+16:39:23,168 [INFO] ExtensionAdvice 'CanTp_PduR_Aspects' could not be found and will be ignored.
+16:39:23,168 [INFO] ExtensionAdvice 'CanNm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,168 [INFO] ExtensionAdvice 'FrNm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,168 [INFO] ExtensionAdvice 'IpduM_PduR_Aspects' could not be found and will be ignored.
+16:39:23,169 [INFO] ExtensionAdvice 'LinIf_Tp_PduR_Aspects' could not be found and will be ignored.
+16:39:23,169 [INFO] ExtensionAdvice 'FrTp_PduR_Aspects' could not be found and will be ignored.
+16:39:23,169 [INFO] ExtensionAdvice 'J1939Tp_PduR_Aspects' could not be found and will be ignored.
+16:39:23,169 [INFO] ExtensionAdvice 'SoAd_PduR_Aspects' could not be found and will be ignored.
+16:39:23,169 [INFO] ExtensionAdvice 'UdpNm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,169 [INFO] ExtensionAdvice 'Dcm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,170 [INFO] ExtensionAdvice registered: Com_PduR_Aspects
+16:39:23,170 [INFO] ExtensionAdvice 'Rba_Psi5If_PduR_Aspects' could not be found and will be ignored.
+16:39:23,170 [INFO] ExtensionAdvice 'Dlt_PduR_Aspects' could not be found and will be ignored.
+16:39:23,171 [INFO] ExtensionAdvice 'DoIP_PduR_Aspects' could not be found and will be ignored.
+16:39:23,171 [INFO] ExtensionAdvice 'LdCom_PduR_Aspects' could not be found and will be ignored.
+16:39:23,171 [INFO] ExtensionAdvice 'J1939Rm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,171 [INFO] ExtensionAdvice 'J1939Dcm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,222 [INFO] /* Generating PbCfg_c::PduR_Gw_IfBuf_PBcfg_c::PduR_gw_IF_Buffers */
+
+16:39:23,239 [INFO] /* Generating PbCfg_c::PduR_Gw_TpBuf_PBcfg_c::PduR_gw_TP_Buffers */
+
+16:39:23,256 [INFO] /* Generating PbCfg_c::PduR_Mc_TpTxToUp_PBcfg_c::xpandMsTpTxToUp */
+
+16:39:23,592 [INFO] workflow completed in 426ms!
+16:39:23,601 [INFO] --------------------------------------------------------------------------------------
+16:39:23,602 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:23,602 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:23,603 [INFO] --------------------------------------------------------------------------------------
+16:39:23,603 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\ComServices\PduR\scripts\templates\PduR_Generate_PB.oaw
+16:39:23,603 [INFO] 
+16:39:23,874 [INFO] BCTCodeGenerator: generating 'templates::PduR::PduR_MainXpand::PduRMain_PBLData FOR model' => []
+16:39:23,876 [INFO] ExtensionAdvice registered: CanIf_PduR_Aspects
+16:39:23,876 [INFO] ExtensionAdvice 'FrIf_PduR_Aspects' could not be found and will be ignored.
+16:39:23,876 [INFO] ExtensionAdvice 'LinIf_PduR_Aspects' could not be found and will be ignored.
+16:39:23,876 [INFO] ExtensionAdvice 'CanTp_PduR_Aspects' could not be found and will be ignored.
+16:39:23,877 [INFO] ExtensionAdvice 'CanNm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,877 [INFO] ExtensionAdvice 'FrNm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,877 [INFO] ExtensionAdvice 'IpduM_PduR_Aspects' could not be found and will be ignored.
+16:39:23,877 [INFO] ExtensionAdvice 'LinIf_Tp_PduR_Aspects' could not be found and will be ignored.
+16:39:23,877 [INFO] ExtensionAdvice 'FrTp_PduR_Aspects' could not be found and will be ignored.
+16:39:23,877 [INFO] ExtensionAdvice 'J1939Tp_PduR_Aspects' could not be found and will be ignored.
+16:39:23,877 [INFO] ExtensionAdvice 'SoAd_PduR_Aspects' could not be found and will be ignored.
+16:39:23,878 [INFO] ExtensionAdvice 'UdpNm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,878 [INFO] ExtensionAdvice 'Dcm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,878 [INFO] ExtensionAdvice registered: Com_PduR_Aspects
+16:39:23,878 [INFO] ExtensionAdvice 'Rba_Psi5If_PduR_Aspects' could not be found and will be ignored.
+16:39:23,879 [INFO] ExtensionAdvice 'Dlt_PduR_Aspects' could not be found and will be ignored.
+16:39:23,879 [INFO] ExtensionAdvice 'DoIP_PduR_Aspects' could not be found and will be ignored.
+16:39:23,879 [INFO] ExtensionAdvice 'LdCom_PduR_Aspects' could not be found and will be ignored.
+16:39:23,879 [INFO] ExtensionAdvice 'J1939Rm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,879 [INFO] ExtensionAdvice 'J1939Dcm_PduR_Aspects' could not be found and will be ignored.
+16:39:23,974 [INFO] /* Generating PbCfg_c::PduR_UpIfToLo_PBcfg_c::upIf_To_Lo */
+
+16:39:24,017 [INFO] /* Generating PbCfg_c::PduR_UpTpToLo_PBcfg_c::upTp_To_Lo */
+
+16:39:24,032 [INFO] /* Generating PbCfg_c::PduR_LoIfRxToUp_PBcfg_c::loIfRx_To_Up */
+
+16:39:24,046 [INFO] /* Generating PbCfg_c::PduR_LoIfDTxToUp_PBcfg_c::loIf_DTxToUp */
+
+16:39:24,068 [INFO] /* Generating PbCfg_c::PduR_LoIfTTxToUp_PBcfg_c::loIf_TTxToUp */
+
+16:39:24,086 [INFO] /* Generating PbCfg_c::PduR_LoTpRxToUp_PBcfg_c::loTpRx_To_Up */
+
+16:39:24,119 [INFO] /* Generating PbCfg_c::PduR_LoTpTxToUp_PBcfg_c::loTpTx_To_Up */
+
+16:39:24,131 [INFO] /* Generating PbCfg_c::PduR_Mc_ComToLo_PBcfg_c::mcComToLow */
+
+16:39:24,146 [INFO] /* Generating PbCfg_c::PduR_Mc_SecOCToLo_PBcfg_c::MC_SecOCUp_Lo */
+
+16:39:24,160 [INFO] /* Generating PbCfg_c::PduR_Mc_DcmToLo_PBcfg_c::mcDcmToLow */
+
+16:39:24,175 [INFO] /* Generating PbCfg_c::PduR_Mc_IpduMToLo_PBcfg_c::MC_IpduMUp_Lo */
+
+16:39:24,187 [INFO] /* Generating PbCfg_c::PduR_Mc_TpTxToUp_PBcfg_c::xpandMcTpTxToUp */
+
+16:39:24,202 [INFO] /* Generating PbCfg_c::PduR_Mc_GwToLo_PBcfg_c::DisplayPduR_mcGwToLo */
+
+16:39:24,221 [INFO] /* Generating PbCfg_c::PduR_GwIfTx_PBcfg_c::display_GwIfTx */
+
+16:39:24,238 [INFO] /* Generating PbCfg_c::PduR_GwIf_PBcfg_c::display_GwIf */
+
+16:39:24,238 [INFO] /* Generating PbCfg_c::PduR_Gw_IfBuf_PBcfg_c::PduR_gw_Buf_If_structure */
+
+16:39:24,271 [INFO] /* Generating PbCfg_c::PduR_Rpg_PBcfg_c::display_PduR_RPG*/
+
+16:39:24,282 [INFO] /* Generating PbCfg_c::PduR_Gw_TpBuf_PBcfg_c::PduR_gw_Buf_TP_structure*/
+
+16:39:24,298 [INFO] /* Generating PbCfg_c::PduR_GwTp_PBcfg_c::display_GwTp */
+
+16:39:24,308 [INFO] /* Generating PbCfg_c::PduR_PbConfigType_PBcfg_c::PduR_BswLoCfg */
+
+16:39:24,329 [INFO] /* Generating PbCfg_c::PduR_PbConfigType_PBcfg_c::PduR_BswUpCfg */
+
+16:39:24,331 [INFO] /* Generating PbCfg_c::PduR_Cdd_PBcfg_c::PduR_CddCfg */
+
+16:39:24,345 [INFO] /* Generating PbCfg_c::PduR_PbConfigType_PBcfg_c::PduR_BswUpToLoRxCfg */
+
+16:39:24,347 [INFO] /* Generating PbCfg_c::PduR_PbConfigType_PBcfg_c::pdur_PBConfigType */
+
+16:39:24,375 [INFO] workflow completed in 501ms!
+16:39:24,393 [INFO] --------------------------------------------------------------------------------------
+16:39:24,393 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:24,393 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:24,394 [INFO] --------------------------------------------------------------------------------------
+16:39:24,394 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CUCEL\rba_ArxmlGen\scripts\rba_ArxmlGen_Validate.oaw
+16:39:24,394 [INFO] 
+16:39:24,701 [INFO] BCTCheckComponent: slot model check file(s): rba_ArxmlGen 
+16:39:24,729 [INFO] workflow completed in 28ms!
+16:39:24,730 [WARN] [WARNING]: rba_ArxmlGen: The short name of executable entity "BSWSE_MainFunction" with category "Schedulable" of component "CanSM" doesn't starts with the prefix SE_(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@1c4de504 (shortName: BSWSE_MainFunction) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:24,730 [WARN] [WARNING]: rba_ArxmlGen: The short name of executable entity "BSWSE_MainFunctionRx" with category "Schedulable" of component "Com" doesn't starts with the prefix SE_(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@3dde4099 (shortName: BSWSE_MainFunctionRx) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:24,730 [WARN] [WARNING]: rba_ArxmlGen: The short name of executable entity "BSWSE_MainFunctionTx" with category "Schedulable" of component "Com" doesn't starts with the prefix SE_(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@69ccb89b (shortName: BSWSE_MainFunctionTx) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:24,731 [WARN] [WARNING]: rba_ArxmlGen: The short name of executable entity "BSWSE_MainFunction_ComMChannel_Can_Cluster_Channel" with category "Schedulable" of component "ComM" doesn't starts with the prefix SE_(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@38c92ab0 (shortName: BSWSE_MainFunction_ComMChannel_Can_Cluster_Channel) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:24,731 [WARN] [WARNING]: rba_ArxmlGen: The short name of executable entity "BSWCE_Init" with category "Called" of component "CanIf" doesn't starts with the prefix CE_(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@c56eca0 (shortName: BSWCE_Init) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:24,731 [WARN] [WARNING]: rba_ArxmlGen: The short name of executable entity "BSWCE_Init" with category "Called" of component "CanSM" doesn't starts with the prefix CE_(Element: splittable.autosar40.ecucdescription.SplittableEcucContainerValueImpl@3cae42f (shortName: BSWCE_Init) (index: <unset>); Reported by: -UNKNOWN-)
+16:39:24,753 [INFO] --------------------------------------------------------------------------------------
+16:39:24,753 [INFO] EMF Modeling Workflow Engine 1.3.21, Build 201705291011
+16:39:24,753 [INFO] (c) 2005-2009 openarchitectureware.org and contributors
+16:39:24,753 [INFO] --------------------------------------------------------------------------------------
+16:39:24,754 [INFO] running workflow: C:\ETASData\configurations\ISOLAR-AB_7.0.1_20200211_1800\configuration\org.eclipse.osgi\817\0\.cp\gen\CUCEL\rba_ArxmlGen\scripts\rba_ArxmlGen_Generate.oaw
+16:39:24,754 [INFO] 
+16:39:25,038 [INFO] BCTCodeGenerator: generating 'rba_ArxmlGen::Generate FOR model' => []
+16:39:25,167 [INFO] workflow completed in 129ms!
