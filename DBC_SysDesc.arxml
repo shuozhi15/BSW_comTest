@@ -2442,9 +2442,12 @@
                   <NM-BUS-SYNCHRONIZATION-ENABLED>false</NM-BUS-SYNCHRONIZATION-ENABLED>
                   <NM-COM-CONTROL-ENABLED>false</NM-COM-CONTROL-ENABLED>
                   <NM-COORDINATOR>
+                    <INDEX>0</INDEX>
+                    <NM-ACTIVE-COORDINATOR>true</NM-ACTIVE-COORDINATOR>
                     <NM-NODE-REFS>
                       <NM-NODE-REF DEST="CAN-NM-NODE">/DBC_SysDesc_Can_Network/Pkg_Nm/NmConfig_0/CanNmCluster_0/CanNmMode_BMS_CANNODE_0</NM-NODE-REF>
                     </NM-NODE-REFS>
+                    <NM-SHUTDOWN-DELAY-TIMER>0.0</NM-SHUTDOWN-DELAY-TIMER>
                   </NM-COORDINATOR>
                   <NM-MULTIPLE-CHANNELS-ENABLED>false</NM-MULTIPLE-CHANNELS-ENABLED>
                   <NM-NODE-DETECTION-ENABLED>false</NM-NODE-DETECTION-ENABLED>
