@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>ARPackage_1</SHORT-NAME>
+      <ELEMENTS>
+        <APPLICATION-SW-COMPONENT-TYPE>
+          <SHORT-NAME>swc</SHORT-NAME>
+          <ADMIN-DATA>
+            <SDGS>
+              <SDG GID="Master">
+                <SD>true</SD>
+              </SDG>
+            </SDGS>
+          </ADMIN-DATA>
+          <PORTS>
+            <P-PORT-PROTOTYPE UUID="ae8abbad-d33f-45c0-b7b8-61534fe10f15">
+              <SHORT-NAME>PPortPrototype_0</SHORT-NAME>
+              <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARPackage_0/soc</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+            <R-PORT-PROTOTYPE UUID="362dacc2-ffc8-49ee-b386-272f57f71442">
+              <SHORT-NAME>RPortPrototype_0</SHORT-NAME>
+              <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARPackage_0/crash</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+          </PORTS>
+          <INTERNAL-BEHAVIORS>
+            <SWC-INTERNAL-BEHAVIOR UUID="a48a084e-5fde-4267-9901-e5ae5d22ab19">
+              <SHORT-NAME>swc</SHORT-NAME>
+              <EVENTS>
+                <TIMING-EVENT UUID="6c97475a-8743-4ccc-826a-07cf4fc19d22">
+                  <SHORT-NAME>TimingEvent_10ms</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/ARPackage_1/swc/swc/RunnableEntity_0</START-ON-EVENT-REF>
+                  <PERIOD>0.01</PERIOD>
+                </TIMING-EVENT>
+              </EVENTS>
+              <RUNNABLES>
+                <RUNNABLE-ENTITY UUID="438fe374-e82c-46e7-a6a5-26fbd1fdb52c">
+                  <SHORT-NAME>RunnableEntity_0</SHORT-NAME>
+                  <DATA-READ-ACCESSS>
+                    <VARIABLE-ACCESS UUID="27b3f68c-79a2-4d4a-9bab-f8947f9f2a47">
+                      <SHORT-NAME>DRA_crash_r_0</SHORT-NAME>
+                      <ACCESSED-VARIABLE>
+                        <AUTOSAR-VARIABLE-IREF>
+                          <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/ARPackage_1/swc/RPortPrototype_0</PORT-PROTOTYPE-REF>
+                          <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/ARPackage_0/crash/crash_r</TARGET-DATA-PROTOTYPE-REF>
+                        </AUTOSAR-VARIABLE-IREF>
+                      </ACCESSED-VARIABLE>
+                    </VARIABLE-ACCESS>
+                  </DATA-READ-ACCESSS>
+                  <DATA-WRITE-ACCESSS>
+                    <VARIABLE-ACCESS UUID="a5392265-65a1-44ca-9059-70458ae8b4b1">
+                      <SHORT-NAME>DWA_soc_p_0</SHORT-NAME>
+                      <ACCESSED-VARIABLE>
+                        <AUTOSAR-VARIABLE-IREF>
+                          <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/ARPackage_1/swc/PPortPrototype_0</PORT-PROTOTYPE-REF>
+                          <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/ARPackage_0/soc/soc_p</TARGET-DATA-PROTOTYPE-REF>
+                        </AUTOSAR-VARIABLE-IREF>
+                      </ACCESSED-VARIABLE>
+                    </VARIABLE-ACCESS>
+                  </DATA-WRITE-ACCESSS>
+                  <SYMBOL>RunnableEntity_0_func</SYMBOL>
+                </RUNNABLE-ENTITY>
+              </RUNNABLES>
+            </SWC-INTERNAL-BEHAVIOR>
+          </INTERNAL-BEHAVIORS>
+        </APPLICATION-SW-COMPONENT-TYPE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+
