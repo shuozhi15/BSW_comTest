@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>DBC_SysDesc_Can_Network</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_Cluster</SHORT-NAME>
+          <ELEMENTS>
+            <CAN-CLUSTER>
+              <SHORT-NAME>Can_Network</SHORT-NAME>
+              <CAN-CLUSTER-VARIANTS>
+                <CAN-CLUSTER-CONDITIONAL>
+                  <BAUDRATE>500000</BAUDRATE>
+                  <PHYSICAL-CHANNELS>
+                    <CAN-PHYSICAL-CHANNEL>
+                      <SHORT-NAME>Can_Network_Channel</SHORT-NAME>
+                      <COMM-CONNECTORS>
+                        <COMMUNICATION-CONNECTOR-REF-CONDITIONAL>
+                          <COMMUNICATION-CONNECTOR-REF DEST="CAN-COMMUNICATION-CONNECTOR">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS</COMMUNICATION-CONNECTOR-REF>
+                        </COMMUNICATION-CONNECTOR-REF-CONDITIONAL>
+                      </COMM-CONNECTORS>
+                      <FRAME-TRIGGERINGS>
+                        <CAN-FRAME-TRIGGERING>
+                          <SHORT-NAME>TMR_3_Trgr</SHORT-NAME>
+                          <FRAME-PORT-REFS>
+                            <FRAME-PORT-REF DEST="FRAME-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/TMR_3_BMS_IN</FRAME-PORT-REF>
+                          </FRAME-PORT-REFS>
+                          <FRAME-REF DEST="CAN-FRAME">/DBC_SysDesc_Can_Network/Pkg_Frame/TMR_3</FRAME-REF>
+                          <PDU-TRIGGERINGS>
+                            <PDU-TRIGGERING-REF-CONDITIONAL>
+                              <PDU-TRIGGERING-REF DEST="PDU-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/PduTrig_TMR_3</PDU-TRIGGERING-REF>
+                            </PDU-TRIGGERING-REF-CONDITIONAL>
+                          </PDU-TRIGGERINGS>
+                          <CAN-ADDRESSING-MODE>STANDARD</CAN-ADDRESSING-MODE>
+                          <CAN-FRAME-RX-BEHAVIOR>ANY</CAN-FRAME-RX-BEHAVIOR>
+                          <IDENTIFIER>808</IDENTIFIER>
+                        </CAN-FRAME-TRIGGERING>
+                        <CAN-FRAME-TRIGGERING>
+                          <SHORT-NAME>BMS_14_Trgr</SHORT-NAME>
+                          <FRAME-PORT-REFS>
+                            <FRAME-PORT-REF DEST="FRAME-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_14_BMS_OUT</FRAME-PORT-REF>
+                          </FRAME-PORT-REFS>
+                          <FRAME-REF DEST="CAN-FRAME">/DBC_SysDesc_Can_Network/Pkg_Frame/BMS_14</FRAME-REF>
+                          <PDU-TRIGGERINGS>
+                            <PDU-TRIGGERING-REF-CONDITIONAL>
+                              <PDU-TRIGGERING-REF DEST="PDU-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/PduTrig_BMS_14</PDU-TRIGGERING-REF>
+                            </PDU-TRIGGERING-REF-CONDITIONAL>
+                          </PDU-TRIGGERINGS>
+                          <CAN-ADDRESSING-MODE>STANDARD</CAN-ADDRESSING-MODE>
+                          <IDENTIFIER>1452</IDENTIFIER>
+                        </CAN-FRAME-TRIGGERING>
+                      </FRAME-TRIGGERINGS>
+                      <I-SIGNAL-TRIGGERINGS>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_TMR_VoltageHV</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/TMR_VoltageHV_BMS_IN</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/TMR_VoltageHV</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_TMR_CurrentHV</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/TMR_CurrentHV_BMS_IN</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/TMR_CurrentHV</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_BMS_SubsymCodeOrder12</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_SubsymCodeOrder12_BMS_OUT</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder12</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_BMS_SubsymCodeOrder11</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_SubsymCodeOrder11_BMS_OUT</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder11</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_BMS_SubsymCodeOrder10</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_SubsymCodeOrder10_BMS_OUT</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder10</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_BMS_SubsymCodeOrder9</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_SubsymCodeOrder9_BMS_OUT</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder9</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_BMS_SubsymCodeOrder8</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_SubsymCodeOrder8_BMS_OUT</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder8</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_BMS_SubsymCodeOrder7</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_SubsymCodeOrder7_BMS_OUT</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder7</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_BMS_SubsymCodeFrameTotalNum</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_SubsymCodeFrameTotalNum_BMS_OUT</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeFrameTotalNum</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING>
+                          <SHORT-NAME>ISigTrig_BMS_SubsymCodeFrameOrder2</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/BMS_SubsymCodeFrameOrder2_BMS_OUT</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeFrameOrder2</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                      </I-SIGNAL-TRIGGERINGS>
+                      <PDU-TRIGGERINGS>
+                        <PDU-TRIGGERING UUID="f3fc5c9f-bf13-44bc-92ed-bb01b2f29c21">
+                          <SHORT-NAME>PduTrig_TMR_3</SHORT-NAME>
+                          <I-PDU-PORT-REFS>
+                            <I-PDU-PORT-REF DEST="I-PDU-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/IpduPort_TMR_3_BMS_IN</I-PDU-PORT-REF>
+                          </I-PDU-PORT-REFS>
+                          <I-PDU-REF DEST="I-SIGNAL-I-PDU">/DBC_SysDesc_Can_Network/Pkg_Pdus/TMR_3</I-PDU-REF>
+                          <I-SIGNAL-TRIGGERINGS>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_TMR_VoltageHV</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_TMR_CurrentHV</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                          </I-SIGNAL-TRIGGERINGS>
+                        </PDU-TRIGGERING>
+                        <PDU-TRIGGERING UUID="8954c705-1230-40d7-aab3-34ebdbf0ae7f">
+                          <SHORT-NAME>PduTrig_BMS_14</SHORT-NAME>
+                          <I-PDU-PORT-REFS>
+                            <I-PDU-PORT-REF DEST="I-PDU-PORT">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Conn_Can_Network_CANNODE_0_BMS/IpduPort_BMS_14_BMS_OUT</I-PDU-PORT-REF>
+                          </I-PDU-PORT-REFS>
+                          <I-PDU-REF DEST="I-SIGNAL-I-PDU">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14</I-PDU-REF>
+                          <I-SIGNAL-TRIGGERINGS>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_BMS_SubsymCodeOrder12</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_BMS_SubsymCodeOrder11</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_BMS_SubsymCodeOrder10</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_BMS_SubsymCodeOrder9</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_BMS_SubsymCodeOrder8</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_BMS_SubsymCodeOrder7</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_BMS_SubsymCodeFrameTotalNum</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/DBC_SysDesc_Can_Network/Pkg_Cluster/Can_Network/Can_Network_Channel/ISigTrig_BMS_SubsymCodeFrameOrder2</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                          </I-SIGNAL-TRIGGERINGS>
+                        </PDU-TRIGGERING>
+                      </PDU-TRIGGERINGS>
+                    </CAN-PHYSICAL-CHANNEL>
+                  </PHYSICAL-CHANNELS>
+                  <PROTOCOL-NAME>CAN</PROTOCOL-NAME>
+                  <PROTOCOL-VERSION />
+                </CAN-CLUSTER-CONDITIONAL>
+              </CAN-CLUSTER-VARIANTS>
+            </CAN-CLUSTER>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_Pdus</SHORT-NAME>
+          <ELEMENTS>
+            <I-SIGNAL-I-PDU>
+              <SHORT-NAME>TMR_3</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+              <I-PDU-TIMING-SPECIFICATIONS>
+                <I-PDU-TIMING>
+                  <TRANSMISSION-MODE-DECLARATION>
+                    <TRANSMISSION-MODE-CONDITIONS>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>NEW-IS-WITHIN</DATA-FILTER-TYPE>
+                          <MAX>1021</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/TMR_3/TMR_VoltageHV</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>NEW-IS-WITHIN</DATA-FILTER-TYPE>
+                          <MAX>2044</MAX>
+                          <MIN>0</MIN>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/TMR_3/TMR_CurrentHV</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                    </TRANSMISSION-MODE-CONDITIONS>
+                    <TRANSMISSION-MODE-FALSE-TIMING>
+                      <CYCLIC-TIMING>
+                        <TIME-OFFSET>
+                          <VALUE>0.0</VALUE>
+                        </TIME-OFFSET>
+                        <TIME-PERIOD>
+                          <VALUE>0.05</VALUE>
+                        </TIME-PERIOD>
+                      </CYCLIC-TIMING>
+                    </TRANSMISSION-MODE-FALSE-TIMING>
+                    <TRANSMISSION-MODE-TRUE-TIMING>
+                      <CYCLIC-TIMING>
+                        <TIME-OFFSET>
+                          <VALUE>0.0</VALUE>
+                        </TIME-OFFSET>
+                        <TIME-PERIOD>
+                          <VALUE>0.05</VALUE>
+                        </TIME-PERIOD>
+                      </CYCLIC-TIMING>
+                    </TRANSMISSION-MODE-TRUE-TIMING>
+                  </TRANSMISSION-MODE-DECLARATION>
+                </I-PDU-TIMING>
+              </I-PDU-TIMING-SPECIFICATIONS>
+              <I-SIGNAL-TO-PDU-MAPPINGS>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>TMR_VoltageHV</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/TMR_VoltageHV</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>12</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>TMR_CurrentHV</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/TMR_CurrentHV</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>7</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+              </I-SIGNAL-TO-PDU-MAPPINGS>
+            </I-SIGNAL-I-PDU>
+            <I-SIGNAL-I-PDU>
+              <SHORT-NAME>BMS_14</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+              <I-PDU-TIMING-SPECIFICATIONS>
+                <I-PDU-TIMING>
+                  <TRANSMISSION-MODE-DECLARATION>
+                    <TRANSMISSION-MODE-CONDITIONS>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>ALWAYS</DATA-FILTER-TYPE>
+                          <MAX>255</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14/BMS_SubsymCodeOrder12</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>ALWAYS</DATA-FILTER-TYPE>
+                          <MAX>255</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14/BMS_SubsymCodeOrder11</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>ALWAYS</DATA-FILTER-TYPE>
+                          <MAX>255</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14/BMS_SubsymCodeOrder10</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>ALWAYS</DATA-FILTER-TYPE>
+                          <MAX>255</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14/BMS_SubsymCodeOrder9</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>ALWAYS</DATA-FILTER-TYPE>
+                          <MAX>255</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14/BMS_SubsymCodeOrder8</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>ALWAYS</DATA-FILTER-TYPE>
+                          <MAX>255</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14/BMS_SubsymCodeOrder7</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>ALWAYS</DATA-FILTER-TYPE>
+                          <MAX>255</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14/BMS_SubsymCodeFrameTotalNum</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <DATA-FILTER>
+                          <DATA-FILTER-TYPE>ALWAYS</DATA-FILTER-TYPE>
+                          <MAX>255</MAX>
+                          <MIN>0</MIN>
+                          <OFFSET>0</OFFSET>
+                        </DATA-FILTER>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14/BMS_SubsymCodeFrameOrder2</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                    </TRANSMISSION-MODE-CONDITIONS>
+                    <TRANSMISSION-MODE-FALSE-TIMING>
+                      <CYCLIC-TIMING>
+                        <TIME-OFFSET>
+                          <VALUE>0.0</VALUE>
+                        </TIME-OFFSET>
+                        <TIME-PERIOD>
+                          <VALUE>1.0</VALUE>
+                        </TIME-PERIOD>
+                      </CYCLIC-TIMING>
+                    </TRANSMISSION-MODE-FALSE-TIMING>
+                    <TRANSMISSION-MODE-TRUE-TIMING>
+                      <CYCLIC-TIMING>
+                        <TIME-OFFSET>
+                          <VALUE>0.0</VALUE>
+                        </TIME-OFFSET>
+                        <TIME-PERIOD>
+                          <VALUE>1.0</VALUE>
+                        </TIME-PERIOD>
+                      </CYCLIC-TIMING>
+                    </TRANSMISSION-MODE-TRUE-TIMING>
+                  </TRANSMISSION-MODE-DECLARATION>
+                </I-PDU-TIMING>
+              </I-PDU-TIMING-SPECIFICATIONS>
+              <I-SIGNAL-TO-PDU-MAPPINGS>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>BMS_SubsymCodeOrder12</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder12</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>63</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>BMS_SubsymCodeOrder11</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder11</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>55</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>BMS_SubsymCodeOrder10</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder10</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>47</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>BMS_SubsymCodeOrder9</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder9</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>39</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>BMS_SubsymCodeOrder8</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder8</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>31</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>BMS_SubsymCodeOrder7</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeOrder7</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>23</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>BMS_SubsymCodeFrameTotalNum</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeFrameTotalNum</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>15</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING>
+                  <SHORT-NAME>BMS_SubsymCodeFrameOrder2</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_ISignal/BMS_SubsymCodeFrameOrder2</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>7</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+              </I-SIGNAL-TO-PDU-MAPPINGS>
+            </I-SIGNAL-I-PDU>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_Signal</SHORT-NAME>
+          <ELEMENTS>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>TMR_VoltageHV</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">HV voltage at the DC/AC converter"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_TMR_VoltageHV</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>TMR_CurrentHV</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">HV current at the DC/AC converter"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_TMR_CurrentHV</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder12</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">??????????????????????????"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder12</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder11</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">?????????????????????????"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder11</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder10</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">????????????????????????"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder10</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder9</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">???????????????????????"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder9</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder8</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">???????????????????????"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder8</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder7</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">????????????????????????"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder7</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeFrameTotalNum</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">????????????????"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeFrameTotalNum</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeFrameOrder2</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">???????????????2"</L-2>
+              </DESC>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+              <PHYSICAL-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeFrameOrder2</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </PHYSICAL-PROPS>
+            </SYSTEM-SIGNAL>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_ISignal</SHORT-NAME>
+          <ELEMENTS>
+            <I-SIGNAL>
+              <SHORT-NAME>TMR_VoltageHV</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">HV voltage at the DC/AC converter"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>10</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint16</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_TMR_VoltageHV</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/TMR_VoltageHV</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>TMR_CurrentHV</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">HV current at the DC/AC converter"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>1023</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>11</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint16</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_TMR_CurrentHV</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/TMR_CurrentHV</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder12</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">??????????????????????????"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder12</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/BMS_SubsymCodeOrder12</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder11</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">?????????????????????????"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder11</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/BMS_SubsymCodeOrder11</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder10</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">????????????????????????"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder10</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/BMS_SubsymCodeOrder10</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder9</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">???????????????????????"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder9</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/BMS_SubsymCodeOrder9</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder8</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">???????????????????????"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder8</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/BMS_SubsymCodeOrder8</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeOrder7</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">????????????????????????"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeOrder7</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/BMS_SubsymCodeOrder7</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeFrameTotalNum</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">????????????????"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeFrameTotalNum</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/BMS_SubsymCodeFrameTotalNum</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL>
+              <SHORT-NAME>BMS_SubsymCodeFrameOrder2</SHORT-NAME>
+              <DESC>
+                <L-2 L="FOR-ALL">???????????????2"</L-2>
+              </DESC>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <INIT-VALUE>
+                <NUMERICAL-VALUE-SPECIFICATION>
+                  <VALUE>0</VALUE>
+                </NUMERICAL-VALUE-SPECIFICATION>
+              </INIT-VALUE>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <COMPU-METHOD-REF DEST="COMPU-METHOD">/DBC_SysDesc_Can_Network/Pkg_CompuMethod/CompuMethod_BMS_SubsymCodeFrameOrder2</COMPU-METHOD-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/DBC_SysDesc_Can_Network/Pkg_Signal/BMS_SubsymCodeFrameOrder2</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_Nm</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_Frame</SHORT-NAME>
+          <ELEMENTS>
+            <CAN-FRAME>
+              <SHORT-NAME>TMR_3</SHORT-NAME>
+              <FRAME-LENGTH>8</FRAME-LENGTH>
+              <PDU-TO-FRAME-MAPPINGS>
+                <PDU-TO-FRAME-MAPPING>
+                  <SHORT-NAME>TMR_3</SHORT-NAME>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <PDU-REF DEST="I-SIGNAL-I-PDU">/DBC_SysDesc_Can_Network/Pkg_Pdus/TMR_3</PDU-REF>
+                  <START-POSITION>7</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </PDU-TO-FRAME-MAPPING>
+              </PDU-TO-FRAME-MAPPINGS>
+            </CAN-FRAME>
+            <CAN-FRAME>
+              <SHORT-NAME>BMS_14</SHORT-NAME>
+              <FRAME-LENGTH>8</FRAME-LENGTH>
+              <PDU-TO-FRAME-MAPPINGS>
+                <PDU-TO-FRAME-MAPPING>
+                  <SHORT-NAME>BMS_14</SHORT-NAME>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <PDU-REF DEST="I-SIGNAL-I-PDU">/DBC_SysDesc_Can_Network/Pkg_Pdus/BMS_14</PDU-REF>
+                  <START-POSITION>7</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </PDU-TO-FRAME-MAPPING>
+              </PDU-TO-FRAME-MAPPINGS>
+            </CAN-FRAME>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_Ecu</SHORT-NAME>
+          <ELEMENTS>
+            <ECU-INSTANCE>
+              <SHORT-NAME>BMS</SHORT-NAME>
+              <COM-CONFIGURATION-GW-TIME-BASE>0.005</COM-CONFIGURATION-GW-TIME-BASE>
+              <COM-CONFIGURATION-RX-TIME-BASE>0.01</COM-CONFIGURATION-RX-TIME-BASE>
+              <COM-CONFIGURATION-TX-TIME-BASE>0.01</COM-CONFIGURATION-TX-TIME-BASE>
+              <COMM-CONTROLLERS>
+                <CAN-COMMUNICATION-CONTROLLER>
+                  <SHORT-NAME>Can_Network_CANNODE_0</SHORT-NAME>
+                  <CAN-COMMUNICATION-CONTROLLER-VARIANTS>
+                    <CAN-COMMUNICATION-CONTROLLER-CONDITIONAL>
+                      <CAN-CONTROLLER-ATTRIBUTES>
+                        <CAN-CONTROLLER-CONFIGURATION>
+                          <PROP-SEG>2</PROP-SEG>
+                          <SYNC-JUMP-WIDTH>1</SYNC-JUMP-WIDTH>
+                          <TIME-SEG-1>12</TIME-SEG-1>
+                          <TIME-SEG-2>5</TIME-SEG-2>
+                        </CAN-CONTROLLER-CONFIGURATION>
+                      </CAN-CONTROLLER-ATTRIBUTES>
+                    </CAN-COMMUNICATION-CONTROLLER-CONDITIONAL>
+                  </CAN-COMMUNICATION-CONTROLLER-VARIANTS>
+                </CAN-COMMUNICATION-CONTROLLER>
+              </COMM-CONTROLLERS>
+              <CONNECTORS>
+                <CAN-COMMUNICATION-CONNECTOR>
+                  <SHORT-NAME>Conn_Can_Network_CANNODE_0_BMS</SHORT-NAME>
+                  <COMM-CONTROLLER-REF DEST="CAN-COMMUNICATION-CONTROLLER">/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS/Can_Network_CANNODE_0</COMM-CONTROLLER-REF>
+                  <ECU-COMM-PORT-INSTANCES>
+                    <FRAME-PORT>
+                      <SHORT-NAME>TMR_3_BMS_IN</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </FRAME-PORT>
+                    <I-PDU-PORT>
+                      <SHORT-NAME>IpduPort_TMR_3_BMS_IN</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-PDU-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>TMR_VoltageHV_BMS_IN</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>TMR_CurrentHV_BMS_IN</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <FRAME-PORT>
+                      <SHORT-NAME>BMS_14_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </FRAME-PORT>
+                    <I-PDU-PORT>
+                      <SHORT-NAME>IpduPort_BMS_14_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-PDU-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>BMS_SubsymCodeOrder12_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>BMS_SubsymCodeOrder11_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>BMS_SubsymCodeOrder10_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>BMS_SubsymCodeOrder9_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>BMS_SubsymCodeOrder8_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>BMS_SubsymCodeOrder7_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>BMS_SubsymCodeFrameTotalNum_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT>
+                      <SHORT-NAME>BMS_SubsymCodeFrameOrder2_BMS_OUT</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                  </ECU-COMM-PORT-INSTANCES>
+                </CAN-COMMUNICATION-CONNECTOR>
+              </CONNECTORS>
+              <SLEEP-MODE-SUPPORTED>false</SLEEP-MODE-SUPPORTED>
+              <WAKE-UP-OVER-BUS-SUPPORTED>false</WAKE-UP-OVER-BUS-SUPPORTED>
+            </ECU-INSTANCE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_CompuMethod</SHORT-NAME>
+          <ELEMENTS>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_BMS_SubsymCodeOrder9</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_BMS_SubsymCodeOrder9</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_BMS_SubsymCodeFrameOrder2</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_BMS_SubsymCodeFrameOrder2</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_TMR_CurrentHV</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <UNIT-REF DEST="UNIT">/DBC_SysDesc_Can_Network/Pkg_Units/Ampere</UNIT-REF>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_TMR_CurrentHV</SHORT-LABEL>
+                    <LOWER-LIMIT>-1023.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>1021.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>1023.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_BMS_SubsymCodeOrder10</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_BMS_SubsymCodeOrder10</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_BMS_SubsymCodeOrder7</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_BMS_SubsymCodeOrder7</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_BMS_SubsymCodeOrder11</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_BMS_SubsymCodeOrder11</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_BMS_SubsymCodeOrder8</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_BMS_SubsymCodeOrder8</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_BMS_SubsymCodeFrameTotalNum</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_BMS_SubsymCodeFrameTotalNum</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_BMS_SubsymCodeOrder12</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_BMS_SubsymCodeOrder12</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>255.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+            <COMPU-METHOD>
+              <SHORT-NAME>CompuMethod_TMR_VoltageHV</SHORT-NAME>
+              <CATEGORY>LINEAR</CATEGORY>
+              <UNIT-REF DEST="UNIT">/DBC_SysDesc_Can_Network/Pkg_Units/V</UNIT-REF>
+              <COMPU-PHYS-TO-INTERNAL>
+                <COMPU-SCALES>
+                  <COMPU-SCALE>
+                    <SHORT-LABEL>CompuScale_CompuMethod_TMR_VoltageHV</SHORT-LABEL>
+                    <LOWER-LIMIT>0.0</LOWER-LIMIT>
+                    <UPPER-LIMIT>1021.0</UPPER-LIMIT>
+                    <COMPU-RATIONAL-COEFFS>
+                      <COMPU-NUMERATOR>
+                        <V>-0.0</V>
+                        <V>1</V>
+                      </COMPU-NUMERATOR>
+                      <COMPU-DENOMINATOR>
+                        <V>1.0</V>
+                      </COMPU-DENOMINATOR>
+                    </COMPU-RATIONAL-COEFFS>
+                  </COMPU-SCALE>
+                </COMPU-SCALES>
+              </COMPU-PHYS-TO-INTERNAL>
+            </COMPU-METHOD>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_Units</SHORT-NAME>
+          <ELEMENTS>
+            <UNIT>
+              <SHORT-NAME>Ampere</SHORT-NAME>
+            </UNIT>
+            <UNIT>
+              <SHORT-NAME>V</SHORT-NAME>
+            </UNIT>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+
