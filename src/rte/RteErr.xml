@@ -1,0 +1,61 @@
+<RTEGEN>
+  <VERSION-INFO>
+    <RTEGen>RTA-RTE V7.1.0 </RTEGen>
+  </VERSION-INFO>
+  <MESSAGES>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W002150</CODE>
+      <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</FILE>
+      <LINE>100</LINE>
+      <LOCATION>/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM</LOCATION>
+      <TEXT>No SwcInstance mapped to the ECU references this SwcBswMapping. RTA-RTE used SwcInstance &apos;/BMS_FlatView/SwComponentTypes/BMS_FlatView/CPT_ComM&apos; because it was the only SwcInstance that uses the referenced Internalbehavior &apos;/AUTOSAR_ComM/SwComponentTypes/ComM/ComM_Int&apos;.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W002151</CODE>
+      <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</FILE>
+      <LINE>100</LINE>
+      <LOCATION>/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM</LOCATION>
+      <TEXT>No BswImplementation mapped to the ECU references this SwcBswMapping. RTA-RTE used BswImplementation &apos;/AUTOSAR_ComM/BswImplementations/ComM&apos; because it was the only BswImplementation that uses the referenced Internalbehavior &apos;/AUTOSAR_ComM/BswModuleDescriptions/ComM/BswInternalBehavior&apos;.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W001205</CODE>
+      <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</FILE>
+      <LINE>11</LINE>
+      <LOCATION>/AUTOSAR_BswM/SwComponentTypes/BswM</LOCATION>
+      <TEXT>Software-component type &apos;BswM&apos; does not have any provided or required ports.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W001205</CODE>
+      <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</FILE>
+      <LINE>41</LINE>
+      <LOCATION>/AUTOSAR_ComM/SwComponentTypes/ComM</LOCATION>
+      <TEXT>Software-component type &apos;ComM&apos; does not have any provided or required ports.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007801</CODE>
+      <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml</FILE>
+      <LINE>38</LINE>
+      <LOCATION>/AUTOSAR_EcuM/SwComponentTypes/EcuM/bootTarget</LOCATION>
+      <TEXT>Provided port &apos;EcuM.bootTarget&apos; of SW-C instance &apos;/BMS_FlatView/SwComponentTypes/BMS_FlatView/CPT_EcuM&apos; is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007801</CODE>
+      <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml</FILE>
+      <LINE>31</LINE>
+      <LOCATION>/AUTOSAR_EcuM/SwComponentTypes/EcuM/shutdownTarget</LOCATION>
+      <TEXT>Provided port &apos;EcuM.shutdownTarget&apos; of SW-C instance &apos;/BMS_FlatView/SwComponentTypes/BMS_FlatView/CPT_EcuM&apos; is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I006910</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Counter Rte_TickCounter must be ticked at 10 ms.</TEXT>
+    </MESSAGE>
+    <COUNT>
+      <ERROR>0</ERROR>
+      <WARNING>4</WARNING>
+      <INFO>3</INFO>
+    </COUNT>
+  </MESSAGES>
+</RTEGEN>

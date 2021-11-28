@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+   <!-- BSW Module Description report file from RTA-RTE V7.1.0  -->
+   <AR-PACKAGES>
+      <AR-PACKAGE>
+         <SHORT-NAME>AUTOSAR_Rte</SHORT-NAME>
+         <REFERENCE-BASES>
+            <!-- Note: ReferenceBases must be unique in a package according to
+                 constr_2509 in AUTOSAR_TPS_GenericStructureTemplate so these
+                 must have different shortLabels to their counterparts in the
+                 McSupportData.
+            -->
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_BswImplementations</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/BswImplementations</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_BswModuleDescriptions</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/BswModuleDescriptions</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_BswModuleEntrys</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/BswModuleEntrys</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_CompuMethods</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/CompuMethods</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_DataConstrs</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/DataConstrs</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_ImplementationDataTypes</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/ImplementationDataTypes</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_SwAddrMethods</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/SwAddrMethods</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_SwBaseTypes</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/SwBaseTypes</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_BSWMD_Units</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/Units</PACKAGE-REF>
+            </REFERENCE-BASE>
+         </REFERENCE-BASES>
+         <AR-PACKAGES>
+            <!-- Module Description -->
+            <AR-PACKAGE>
+               <SHORT-NAME>BswModuleDescriptions</SHORT-NAME>
+               <ELEMENTS>
+                  <BSW-MODULE-DESCRIPTION>
+                     <SHORT-NAME>Rte</SHORT-NAME>
+                     <PROVIDED-ENTRYS>
+                        <!--The BSW-MODULE-ENTRY-REF-CONDITIONAL for Rte_IRead_swc_RunnableEntity_0_RPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                        <!--The BSW-MODULE-ENTRY-REF-CONDITIONAL for Rte_IWriteRef_swc_RunnableEntity_0_PPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                        <!--The BSW-MODULE-ENTRY-REF-CONDITIONAL for Rte_IWrite_swc_RunnableEntity_0_PPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_ActivateRE</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_DecrementWaitingCount</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_GetCurrentTaskIndex</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_ImplWrite_swc_PPortPrototype_0_DataElements_VariableDataPrototype_0</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_MainFunction</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_ReadQueue</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_SetEvent</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_Start</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_Stop</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_WaitWithTimeout</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_WriteQueue</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_memcpy</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">SchM_Deinit</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">SchM_Init</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                     </PROVIDED-ENTRYS>
+                     <OUTGOING-CALLBACKS>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_StartHook_Return</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_StartHook_Start</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_StopHook_Return</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_StopHook_Start</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_Task_Activate</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                     </OUTGOING-CALLBACKS>
+                     <BSW-MODULE-DEPENDENCYS>
+                        <BSW-MODULE-DEPENDENCY>
+                          <SHORT-NAME>AUTOSAR_Os</SHORT-NAME>
+                          <TARGET-MODULE-ID>1</TARGET-MODULE-ID>
+                          <REQUIRED-ENTRYS>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Os/BswModuleEntrys/ActivateTask</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Os/BswModuleEntrys/GetResource</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Os/BswModuleEntrys/ReleaseResource</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Os/BswModuleEntrys/ResumeOSInterrupts</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Os/BswModuleEntrys/Rte_ResumeAllInterrupts</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Os/BswModuleEntrys/Rte_SuspendAllInterrupts</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Os/BswModuleEntrys/SuspendOSInterrupts</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Os/BswModuleEntrys/TerminateTask</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          </REQUIRED-ENTRYS>
+                        </BSW-MODULE-DEPENDENCY>
+                        <BSW-MODULE-DEPENDENCY>
+                          <SHORT-NAME>AUTOSAR_Com</SHORT-NAME>
+                          <TARGET-MODULE-ID>50</TARGET-MODULE-ID>
+                          <REQUIRED-ENTRYS>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Com/BswModuleEntrys/Com_ReceiveSignal</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Com/BswModuleEntrys/Com_SendSignal</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          </REQUIRED-ENTRYS>
+                          <EXPECTED-CALLBACKS>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Com/BswModuleEntrys/Rte_COMCbk_TMR_VoltageHV</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          </EXPECTED-CALLBACKS>
+                        </BSW-MODULE-DEPENDENCY>
+                     </BSW-MODULE-DEPENDENCYS>
+                     <INTERNAL-BEHAVIORS>
+                        <BSW-INTERNAL-BEHAVIOR>
+                           <SHORT-NAME>RteInternalBehavior</SHORT-NAME>
+                           <CONSTANT-MEMORYS>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Inst_BswM</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_CDS_BswM</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Inst_ComM</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_CDS_ComM</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Inst_EcuM</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_CDS_EcuM</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Inst_swc</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_CDS_swc</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Self_CPT_BswM</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SelfType_BswM</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Self_CPT_ComM</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SelfType_ComM</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Self_CPT_EcuM</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SelfType_EcuM</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Self_CPT_swc</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SelfType_swc</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Tasks</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_TaskInfo</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                           </CONSTANT-MEMORYS>
+                           <STATIC-MEMORYS>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ImplicitBufs</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_ImplicitBufsType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Rx_000000</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8_least</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Rx_000001</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint16</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                           </STATIC-MEMORYS>
+                           <ENTITYS>
+                              <!--No BSW-CALLED-ENTITY needed for required API 'ActivateTask', since it is provided by BSWModule 'AUTOSAR_Os'-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'Com_ReceiveSignal', since it is provided by BSWModule 'AUTOSAR_Com'-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'Com_SendSignal', since it is provided by BSWModule 'AUTOSAR_Com'-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'GetResource', since it is provided by BSWModule 'AUTOSAR_Os'-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'ReleaseResource', since it is provided by BSWModule 'AUTOSAR_Os'-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'ResumeOSInterrupts', since it is provided by BSWModule 'AUTOSAR_Os'-->
+                              <!--The BSW-CALLED-ENTITY for Rte_IRead_swc_RunnableEntity_0_RPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                              <!--The BSW-CALLED-ENTITY for Rte_IWriteRef_swc_RunnableEntity_0_PPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                              <!--The BSW-CALLED-ENTITY for Rte_IWrite_swc_RunnableEntity_0_PPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'Rte_ResumeAllInterrupts', since it is provided by BSWModule 'AUTOSAR_Os'-->
+                              <!--No BSW-CALLED-ENTITY needed for outgoing callback 'Rte_StartHook_Return', since it is provided by the 'AUTOSAR_Rte' BSWModule-->
+                              <!--No BSW-CALLED-ENTITY needed for outgoing callback 'Rte_StartHook_Start', since it is provided by the 'AUTOSAR_Rte' BSWModule-->
+                              <!--No BSW-CALLED-ENTITY needed for outgoing callback 'Rte_StopHook_Return', since it is provided by the 'AUTOSAR_Rte' BSWModule-->
+                              <!--No BSW-CALLED-ENTITY needed for outgoing callback 'Rte_StopHook_Start', since it is provided by the 'AUTOSAR_Rte' BSWModule-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'Rte_SuspendAllInterrupts', since it is provided by BSWModule 'AUTOSAR_Os'-->
+                              <!--No BSW-CALLED-ENTITY needed for outgoing callback 'Rte_Task_Activate', since it is provided by the 'AUTOSAR_Rte' BSWModule-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'SuspendOSInterrupts', since it is provided by BSWModule 'AUTOSAR_Os'-->
+                              <!--No BSW-CALLED-ENTITY needed for required API 'TerminateTask', since it is provided by BSWModule 'AUTOSAR_Os'-->
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_ActivateRE</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_ActivateRE</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_COMCbk_TMR_VoltageHV</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Com/BswModuleEntrys/Rte_COMCbk_TMR_VoltageHV</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_DecrementWaitingCount</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_DecrementWaitingCount</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_GetCurrentTaskIndex</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_GetCurrentTaskIndex</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_ImplWrite_swc_PPortPrototype_0_DataElements_VariableDataPrototype_0</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_ImplWrite_swc_PPortPrototype_0_DataElements_VariableDataPrototype_0</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_MainFunction</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_MainFunction</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_ReadQueue</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_ReadQueue</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_SetEvent</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_SetEvent</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_Start</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_Start</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_Stop</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_Stop</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_WaitWithTimeout</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_WaitWithTimeout</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_WriteQueue</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_WriteQueue</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>Rte_memcpy</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">Rte_memcpy</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>SchM_Deinit</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">SchM_Deinit</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>SchM_Init</SHORT-NAME>
+                                <SW-ADDR-METHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDR-METHOD-REF>
+                                <IMPLEMENTED-ENTRY-REF BASE="Rte_BSWMD_BswModuleEntrys" DEST="BSW-MODULE-ENTRY">SchM_Init</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                           </ENTITYS>
+                        </BSW-INTERNAL-BEHAVIOR>
+                     </INTERNAL-BEHAVIORS>
+                  </BSW-MODULE-DESCRIPTION>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>BswModuleEntrys</SHORT-NAME>
+               <ELEMENTS>
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'ActivateTask', since it belongs to BSWModule 'AUTOSAR_Os'-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'Com_ReceiveSignal', since it belongs to BSWModule 'AUTOSAR_Com'-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'Com_SendSignal', since it belongs to BSWModule 'AUTOSAR_Com'-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'GetResource', since it belongs to BSWModule 'AUTOSAR_Os'-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'ReleaseResource', since it belongs to BSWModule 'AUTOSAR_Os'-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'ResumeOSInterrupts', since it belongs to BSWModule 'AUTOSAR_Os'-->
+                  <!--No BSW-MODULE-ENTRY needed for ExpectedCallback 'Rte_COMCbk_TMR_VoltageHV', since it belongs to BSWModule 'AUTOSAR_Com'-->
+                  <!--The BSW-MODULE-ENTRY for Rte_IRead_swc_RunnableEntity_0_RPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                  <!--The BSW-MODULE-ENTRY for Rte_IWriteRef_swc_RunnableEntity_0_PPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                  <!--The BSW-MODULE-ENTRY for Rte_IWrite_swc_RunnableEntity_0_PPortPrototype_0_DataElements_VariableDataPrototype_0 was not created because it is not used-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'Rte_ResumeAllInterrupts', since it belongs to BSWModule 'AUTOSAR_Os'-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'Rte_SuspendAllInterrupts', since it belongs to BSWModule 'AUTOSAR_Os'-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'SuspendOSInterrupts', since it belongs to BSWModule 'AUTOSAR_Os'-->
+                  <!--No BSW-MODULE-ENTRY needed for requiredEntry 'TerminateTask', since it belongs to BSWModule 'AUTOSAR_Os'-->
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_ActivateRE</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_DecrementWaitingCount</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_GetCurrentTaskIndex</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_ImplWrite_swc_PPortPrototype_0_DataElements_VariableDataPrototype_0</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_MainFunction</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_ReadQueue</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_SetEvent</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_Start</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_StartHook_Return</SHORT-NAME>
+                    <CALL-TYPE>CALLBACK</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_StartHook_Start</SHORT-NAME>
+                    <CALL-TYPE>CALLBACK</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_Stop</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_StopHook_Return</SHORT-NAME>
+                    <CALL-TYPE>CALLBACK</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_StopHook_Start</SHORT-NAME>
+                    <CALL-TYPE>CALLBACK</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_Task_Activate</SHORT-NAME>
+                    <CALL-TYPE>CALLBACK</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_WaitWithTimeout</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_WriteQueue</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_memcpy</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>SchM_Deinit</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>SchM_Init</SHORT-NAME>
+                    <CALL-TYPE>REGULAR</CALL-TYPE>
+                  </BSW-MODULE-ENTRY>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>BswImplementations</SHORT-NAME>
+               <ELEMENTS>
+                  <BSW-IMPLEMENTATION>
+                    <SHORT-NAME>Rte</SHORT-NAME>
+                    <GENERATED-ARTIFACTS>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Com_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Com_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Ioc_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Ioc_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>NvM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>NvM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Os_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Os_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>OsTask_0_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>OsTask_0_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_c</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_c</SHORT-LABEL>
+                          <CATEGORY>SWSRC</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_BswM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_BswM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_BswM_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_BswM_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Cbk_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Cbk_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Cfg_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Cfg_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_ComM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_ComM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_ComM_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_ComM_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Const_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Const_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_DataHandleType_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_DataHandleType_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_EcuM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_EcuM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_EcuM_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_EcuM_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Hook_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Hook_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Intl_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Intl_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Lib_c</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Lib_c</SHORT-LABEL>
+                          <CATEGORY>SWSRC</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Main_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Main_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_swc_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_swc_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_swc_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_swc_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_BswM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_BswM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_BswM_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_BswM_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_CanSM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_CanSM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_CanSM_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_CanSM_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_Com_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_Com_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_ComM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_ComM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_ComM_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_ComM_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_Com_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_Com_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_EcuM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_EcuM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>SchM_EcuM_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>SchM_EcuM_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                    </GENERATED-ARTIFACTS>
+                    <PROGRAMMING-LANGUAGE>C</PROGRAMMING-LANGUAGE>
+                    <RESOURCE-CONSUMPTION>
+                      <SHORT-NAME>ResConsumption</SHORT-NAME>
+                      <MEMORY-SECTIONS>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>RTE_EXT_CODE</SHORT-NAME>
+                          <EXECUTABLE-ENTITY-REFS>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_ActivateRE</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_SetEvent</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_WriteQueue</EXECUTABLE-ENTITY-REF>
+                          </EXECUTABLE-ENTITY-REFS>
+                          <PREFIX-REF BASE="Rte_BSWMD_BswImplementations" DEST="SECTION-NAME-PREFIX">Rte/ResConsumption/RTE_EXT</PREFIX-REF>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDRMETHOD-REF>
+                          <SYMBOL>CODE</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>RTE_LIB_CODE</SHORT-NAME>
+                          <EXECUTABLE-ENTITY-REFS>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_GetCurrentTaskIndex</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_memcpy</EXECUTABLE-ENTITY-REF>
+                          </EXECUTABLE-ENTITY-REFS>
+                          <PREFIX-REF BASE="Rte_BSWMD_BswImplementations" DEST="SECTION-NAME-PREFIX">Rte/ResConsumption/RTE_LIB</PREFIX-REF>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDRMETHOD-REF>
+                          <SYMBOL>CODE</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>RTE_MAIN_CODE</SHORT-NAME>
+                          <EXECUTABLE-ENTITY-REFS>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_MainFunction</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_Start</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_Stop</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/SchM_Deinit</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/SchM_Init</EXECUTABLE-ENTITY-REF>
+                          </EXECUTABLE-ENTITY-REFS>
+                          <PREFIX-REF BASE="Rte_BSWMD_BswImplementations" DEST="SECTION-NAME-PREFIX">Rte/ResConsumption/RTE_MAIN</PREFIX-REF>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDRMETHOD-REF>
+                          <SYMBOL>CODE</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>RTE_OSTASK_0_CODE</SHORT-NAME>
+                          <EXECUTABLE-ENTITY-REFS/>
+                          <PREFIX-REF BASE="Rte_BSWMD_BswImplementations" DEST="SECTION-NAME-PREFIX">Rte/ResConsumption/RTE_OSTASK_0</PREFIX-REF>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDRMETHOD-REF>
+                          <SYMBOL>CODE</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>RTE_SIG_TMR_VOLTAGEHV_CODE</SHORT-NAME>
+                          <EXECUTABLE-ENTITY-REFS>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_COMCbk_TMR_VoltageHV</EXECUTABLE-ENTITY-REF>
+                          </EXECUTABLE-ENTITY-REFS>
+                          <PREFIX-REF BASE="Rte_BSWMD_BswImplementations" DEST="SECTION-NAME-PREFIX">Rte/ResConsumption/RTE_SIG_TMR_VOLTAGEHV</PREFIX-REF>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDRMETHOD-REF>
+                          <SYMBOL>CODE</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>RTE_SYS_CODE</SHORT-NAME>
+                          <EXECUTABLE-ENTITY-REFS>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_DecrementWaitingCount</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_ReadQueue</EXECUTABLE-ENTITY-REF>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_WaitWithTimeout</EXECUTABLE-ENTITY-REF>
+                          </EXECUTABLE-ENTITY-REFS>
+                          <PREFIX-REF BASE="Rte_BSWMD_BswImplementations" DEST="SECTION-NAME-PREFIX">Rte/ResConsumption/RTE_SYS</PREFIX-REF>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDRMETHOD-REF>
+                          <SYMBOL>CODE</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>RTE_SWC_CODE</SHORT-NAME>
+                          <EXECUTABLE-ENTITY-REFS>
+                            <EXECUTABLE-ENTITY-REF BASE="Rte_BSWMD_BswModuleDescriptions" DEST="BSW-CALLED-ENTITY">Rte/RteInternalBehavior/Rte_ImplWrite_swc_PPortPrototype_0_DataElements_VariableDataPrototype_0</EXECUTABLE-ENTITY-REF>
+                          </EXECUTABLE-ENTITY-REFS>
+                          <PREFIX-REF BASE="Rte_BSWMD_BswImplementations" DEST="SECTION-NAME-PREFIX">Rte/ResConsumption/RTE_SWC</PREFIX-REF>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CODE</SW-ADDRMETHOD-REF>
+                          <SYMBOL>CODE</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>CONST_UNSPECIFIED</SHORT-NAME>
+                          <ALIGNMENT>UNSPECIFIED</ALIGNMENT>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">CONST</SW-ADDRMETHOD-REF>
+                          <SYMBOL>CONST_UNSPECIFIED</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>VAR_CLEARED_16</SHORT-NAME>
+                          <ALIGNMENT>16</ALIGNMENT>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">VAR_CLEARED</SW-ADDRMETHOD-REF>
+                          <SYMBOL>VAR_CLEARED_16</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>VAR_CLEARED_32</SHORT-NAME>
+                          <ALIGNMENT>32</ALIGNMENT>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">VAR_CLEARED</SW-ADDRMETHOD-REF>
+                          <SYMBOL>VAR_CLEARED_32</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>RTE_SYS_VAR_CLEARED_32</SHORT-NAME>
+                          <ALIGNMENT>32</ALIGNMENT>
+                          <PREFIX-REF BASE="Rte_BSWMD_BswImplementations" DEST="SECTION-NAME-PREFIX">Rte/ResConsumption/RTE_SYS</PREFIX-REF>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">VAR_CLEARED</SW-ADDRMETHOD-REF>
+                          <SYMBOL>VAR_CLEARED_32</SYMBOL>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>VAR_CLEARED_BOOLEAN</SHORT-NAME>
+                          <ALIGNMENT>BOOLEAN</ALIGNMENT>
+                          <SW-ADDRMETHOD-REF BASE="Rte_BSWMD_SwAddrMethods" DEST="SW-ADDR-METHOD">VAR_CLEARED</SW-ADDRMETHOD-REF>
+                          <SYMBOL>VAR_CLEARED_BOOLEAN</SYMBOL>
+                        </MEMORY-SECTION>
+                      </MEMORY-SECTIONS>
+                      <SECTION-NAME-PREFIXS>
+                        <SECTION-NAME-PREFIX>
+                          <SHORT-NAME>RTE_EXT</SHORT-NAME>
+                          <SYMBOL>RTE_EXT</SYMBOL>
+                        </SECTION-NAME-PREFIX>
+                        <SECTION-NAME-PREFIX>
+                          <SHORT-NAME>RTE_LIB</SHORT-NAME>
+                          <SYMBOL>RTE_LIB</SYMBOL>
+                        </SECTION-NAME-PREFIX>
+                        <SECTION-NAME-PREFIX>
+                          <SHORT-NAME>RTE_MAIN</SHORT-NAME>
+                          <SYMBOL>RTE_MAIN</SYMBOL>
+                        </SECTION-NAME-PREFIX>
+                        <SECTION-NAME-PREFIX>
+                          <SHORT-NAME>RTE_OSTASK_0</SHORT-NAME>
+                          <SYMBOL>RTE_OSTASK_0</SYMBOL>
+                        </SECTION-NAME-PREFIX>
+                        <SECTION-NAME-PREFIX>
+                          <SHORT-NAME>RTE_SIG_TMR_VOLTAGEHV</SHORT-NAME>
+                          <SYMBOL>RTE_SIG_TMR_VOLTAGEHV</SYMBOL>
+                        </SECTION-NAME-PREFIX>
+                        <SECTION-NAME-PREFIX>
+                          <SHORT-NAME>RTE_SWC</SHORT-NAME>
+                          <SYMBOL>RTE_SWC</SYMBOL>
+                        </SECTION-NAME-PREFIX>
+                        <SECTION-NAME-PREFIX>
+                          <SHORT-NAME>RTE_SYS</SHORT-NAME>
+                          <SYMBOL>RTE_SYS</SYMBOL>
+                        </SECTION-NAME-PREFIX>
+                      </SECTION-NAME-PREFIXS>
+                    </RESOURCE-CONSUMPTION>
+                    <SW-VERSION>0.0.0</SW-VERSION>
+                    <USED-CODE-GENERATOR>ETAS RTEGen</USED-CODE-GENERATOR>
+                    <AR-RELEASE-VERSION>4.0.0</AR-RELEASE-VERSION>
+                    <BEHAVIOR-REF DEST="BSW-INTERNAL-BEHAVIOR">/AUTOSAR_Rte/BswModuleDescriptions/Rte/RteInternalBehavior</BEHAVIOR-REF>
+                  </BSW-IMPLEMENTATION>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>Units</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>CompuMethods</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>DataConstrs</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>ImplementationDataTypes</SHORT-NAME>
+               <ELEMENTS>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>uint8_least</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <BASE-TYPE-REF BASE="Rte_BSWMD_SwBaseTypes" DEST="SW-BASE-TYPE">AUTOSAR_PlatformTypes_SwBaseTypes_uint8_least</BASE-TYPE-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_DE_uint8_least</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>value</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8_least</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>uint16</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <BASE-TYPE-REF BASE="Rte_BSWMD_SwBaseTypes" DEST="SW-BASE-TYPE">AUTOSAR_PlatformTypes_SwBaseTypes_uint16</BASE-TYPE-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_DE_uint16</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>value</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint16</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_TDB_OsTask_0</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>rbuf0</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_uint8_least</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf1</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_uint16</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_ISA_1</SHORT-NAME>
+                    <CATEGORY>UNION</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>Rte_OsTask_0</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_TDB_OsTask_0</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_ImplicitBufsType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>isa_1</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_ISA_1</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>uint8</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <BASE-TYPE-REF BASE="Rte_BSWMD_SwBaseTypes" DEST="SW-BASE-TYPE">AUTOSAR_Platform_BaseTypes_uint8</BASE-TYPE-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_CDS_BswM</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>Rte_Dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_CDS_ComM</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>Rte_Dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_CDS_EcuM</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>Rte_Dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_CDS_swc</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>RunnableEntity_0_PPortPrototype_0_DataElements_VariableDataPrototype_0</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_uint16</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>RunnableEntity_0_RPortPrototype_0_DataElements_VariableDataPrototype_0</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_uint8_least</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SelfType_BswM</SHORT-NAME>
+                    <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_CDS_BswM</IMPLEMENTATION-DATA-TYPE-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SelfType_ComM</SHORT-NAME>
+                    <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_CDS_ComM</IMPLEMENTATION-DATA-TYPE-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SelfType_EcuM</SHORT-NAME>
+                    <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_CDS_EcuM</IMPLEMENTATION-DATA-TYPE-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SelfType_swc</SHORT-NAME>
+                    <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_BSWMD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_CDS_swc</IMPLEMENTATION-DATA-TYPE-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_TaskInfo</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>SwAddrMethods</SHORT-NAME>
+               <ELEMENTS>
+                  <!--The SW-ADDR-METHOD 'CALPRM' was not reported, as it is not used in the generated RTE.-->
+                  <!--The SW-ADDR-METHOD 'VAR_INIT' was not reported, as it is not used in the generated RTE.-->
+                  <SW-ADDR-METHOD>
+                    <SHORT-NAME>CODE</SHORT-NAME>
+                    <MEMORY-ALLOCATION-KEYWORD-POLICY>ADDR-METHOD-SHORT-NAME</MEMORY-ALLOCATION-KEYWORD-POLICY>
+                    <SECTION-TYPE>CODE</SECTION-TYPE>
+                  </SW-ADDR-METHOD>
+                  <SW-ADDR-METHOD>
+                    <SHORT-NAME>CONST</SHORT-NAME>
+                    <MEMORY-ALLOCATION-KEYWORD-POLICY>ADDR-METHOD-SHORT-NAME-AND-ALIGNMENT</MEMORY-ALLOCATION-KEYWORD-POLICY>
+                    <SECTION-TYPE>CONST</SECTION-TYPE>
+                  </SW-ADDR-METHOD>
+                  <SW-ADDR-METHOD>
+                    <SHORT-NAME>VAR_CLEARED</SHORT-NAME>
+                    <MEMORY-ALLOCATION-KEYWORD-POLICY>ADDR-METHOD-SHORT-NAME-AND-ALIGNMENT</MEMORY-ALLOCATION-KEYWORD-POLICY>
+                    <SECTION-INITIALIZATION-POLICY>CLEARED</SECTION-INITIALIZATION-POLICY>
+                    <SECTION-TYPE>VAR</SECTION-TYPE>
+                  </SW-ADDR-METHOD>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>SwBaseTypes</SHORT-NAME>
+               <ELEMENTS>
+                  <SW-BASE-TYPE>
+                    <!--Was /AUTOSAR_PlatformTypes/SwBaseTypes/uint8_least-->
+                    <!--Referenced by Type uint8_least-->
+                    <SHORT-NAME>AUTOSAR_PlatformTypes_SwBaseTypes_uint8_least</SHORT-NAME>
+                    <LONG-NAME>
+                      <L-4 L="EN">unsigned integer at least 8 bit</L-4>
+                    </LONG-NAME>
+                    <CATEGORY>FIXED_LENGTH</CATEGORY>
+                    <INTRODUCTION>
+                      <TRACE>
+                        <SHORT-NAME>PLATFORM020</SHORT-NAME>
+                        <CATEGORY>SPECIFICATION_ITEM</CATEGORY>
+                        <P>
+                          <L-1 L="EN">This standard AUTOSAR type shall be at least 8 bit unsigned.</L-1>
+                        </P>
+                      </TRACE>
+                    </INTRODUCTION>
+                    <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
+                    <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+                    <MEM-ALIGNMENT>32</MEM-ALIGNMENT>
+                  </SW-BASE-TYPE>
+                  <SW-BASE-TYPE>
+                    <!--Was /AUTOSAR_PlatformTypes/SwBaseTypes/uint16-->
+                    <!--Referenced by Type uint16-->
+                    <SHORT-NAME>AUTOSAR_PlatformTypes_SwBaseTypes_uint16</SHORT-NAME>
+                    <LONG-NAME>
+                      <L-4 L="EN">unsigned integer 16bit</L-4>
+                    </LONG-NAME>
+                    <CATEGORY>FIXED_LENGTH</CATEGORY>
+                    <INTRODUCTION>
+                      <TRACE>
+                        <SHORT-NAME>PLATFORM014</SHORT-NAME>
+                        <CATEGORY>SPECIFICATION_ITEM</CATEGORY>
+                        <P>
+                          <L-1 L="EN">This standard AUTOSAR type shall be of 16 bit unsigned.</L-1>
+                        </P>
+                      </TRACE>
+                    </INTRODUCTION>
+                    <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
+                    <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+                    <MEM-ALIGNMENT>16</MEM-ALIGNMENT>
+                  </SW-BASE-TYPE>
+                  <SW-BASE-TYPE>
+                    <!--Was /AUTOSAR_Platform/BaseTypes/uint8-->
+                    <!--Referenced by Type uint8-->
+                    <SHORT-NAME>AUTOSAR_Platform_BaseTypes_uint8</SHORT-NAME>
+                    <LONG-NAME>
+                      <L-4 L="EN">unsigned integer 8bit</L-4>
+                    </LONG-NAME>
+                    <CATEGORY>FIXED_LENGTH</CATEGORY>
+                    <INTRODUCTION>
+                      <TRACE>
+                        <SHORT-NAME>SWS_Platform_00013</SHORT-NAME>
+                        <CATEGORY>SPECIFICATION_ITEM</CATEGORY>
+                        <P>
+                          <L-1 L="EN">This standard AUTOSAR type shall be of 8 bit unsigned.</L-1>
+                        </P>
+                      </TRACE>
+                    </INTRODUCTION>
+                    <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+                    <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+                    <MEM-ALIGNMENT>8</MEM-ALIGNMENT>
+                  </SW-BASE-TYPE>
+               </ELEMENTS>
+            </AR-PACKAGE>
+         </AR-PACKAGES>
+      </AR-PACKAGE>
+   </AR-PACKAGES>
+</AUTOSAR>
+

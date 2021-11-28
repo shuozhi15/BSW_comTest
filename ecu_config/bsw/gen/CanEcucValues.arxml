@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
   <AR-PACKAGES>
-    <AR-PACKAGE UUID="69651f1a-11ff-4855-9ba6-61c3e22935ae">
+    <AR-PACKAGE UUID="c47d47d5-a577-487e-9206-0c6e66faacab">
       <SHORT-NAME>Can</SHORT-NAME>
       <ELEMENTS>
-        <ECUC-MODULE-CONFIGURATION-VALUES UUID="1ad95195-bcaf-43fb-ba1b-5c97ec5836f7">
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="1ee31dc3-004e-410a-a323-384294e559e4">
           <SHORT-NAME>Can</SHORT-NAME>
           <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_Can/EcucModuleDefs/Can</DEFINITION-REF>
           <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
           <CONTAINERS>
-            <ECUC-CONTAINER-VALUE UUID="8818502a-8f54-46c0-aaa1-d7535ec8f7da">
+            <ECUC-CONTAINER-VALUE UUID="62a66d08-53aa-473b-9e4e-c198554f2116">
               <SHORT-NAME>CanGeneral</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Can/EcucModuleDefs/Can/CanGeneral</DEFINITION-REF>
               <PARAMETER-VALUES>
@@ -47,11 +47,11 @@
                 </ECUC-NUMERICAL-PARAM-VALUE>
               </PARAMETER-VALUES>
             </ECUC-CONTAINER-VALUE>
-            <ECUC-CONTAINER-VALUE UUID="e0fb2e4c-48cf-4f98-ad4e-c948aa3f0622">
+            <ECUC-CONTAINER-VALUE UUID="98bfc067-b0de-49be-b73a-357800c04582">
               <SHORT-NAME>CanConfigSet</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Can/EcucModuleDefs/Can/CanConfigSet</DEFINITION-REF>
               <SUB-CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="ab3d5467-f301-4280-932a-132c191654d9">
+                <ECUC-CONTAINER-VALUE UUID="3ae4e5ac-960c-40cc-aabd-8e934e1386cf">
                   <SHORT-NAME>CANNODE_0</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Can/EcucModuleDefs/Can/CanConfigSet/CanController</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -99,7 +99,7 @@
                     </ECUC-REFERENCE-VALUE>
                   </REFERENCE-VALUES>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="5edf976e-2dbf-4c71-ba2e-664892a09d45">
+                    <ECUC-CONTAINER-VALUE UUID="8d8d20c8-df77-4310-b88e-69dea863c086">
                       <SHORT-NAME>CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Can/EcucModuleDefs/Can/CanConfigSet/CanController/CanControllerBaudrateConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -131,7 +131,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="a9a11be4-aa4a-4ee0-92e1-a68686143b57">
+                <ECUC-CONTAINER-VALUE UUID="911c104e-28df-43ab-a31d-054bc30dbf9c">
                   <SHORT-NAME>CANNODE_0_Rx_Std_MailBox_1</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Can/EcucModuleDefs/Can/CanConfigSet/CanHardwareObject</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -163,7 +163,7 @@
                     </ECUC-REFERENCE-VALUE>
                   </REFERENCE-VALUES>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="b2255ef7-9da4-4cce-8c84-cdea45150ace">
+                    <ECUC-CONTAINER-VALUE UUID="898cd088-4427-4940-9635-34e1e0c52864">
                       <SHORT-NAME>CanHwFilter</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Can/EcucModuleDefs/Can/CanConfigSet/CanHardwareObject/CanHwFilter</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -179,7 +179,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="ee877de7-75c5-4e9f-9f7b-888cc39b0f4f">
+                <ECUC-CONTAINER-VALUE UUID="4410f629-c659-45bc-a27a-4ac42be4b3a7">
                   <SHORT-NAME>CANNODE_0_Tx_Std_MailBox_1</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Can/EcucModuleDefs/Can/CanConfigSet/CanHardwareObject</DEFINITION-REF>
                   <PARAMETER-VALUES>

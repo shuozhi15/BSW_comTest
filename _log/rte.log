@@ -1,0 +1,118 @@
+********************************************************************************
+Build Execution started
+********************************************************************************
+Tool Version : ISOLAR-A/B 7.0.1 
+Tool Build Id :20200211_1800
+Date : Mon Nov 29 00:19:20 CST 2021
+Project : ComTest
+********************************************************************************
+
+********************************************************************************
+Project clean execution has started at 00:19:20:599 hh:mm:ss:ms 
+********************************************************************************
+D:\My_GitHub\BSW_comTest\src\rte directory cleaned
+Clean action: RTA_RTE 
+********************************************************************************
+Project clean execution has been completed
+Time taken to run Project Clean :: 00:00:00:017 hh:mm:ss:ms 
+********************************************************************************
+********************************************************************************
+Pre build execution has started at 00:19:20:763 hh:mm:ss:ms 
+********************************************************************************
+Pre build validation successfully completed
+Execute action: LstFileGenerator 
+********************************************************************************
+Execution of action LstFileGenerator successfully completed
+********************************************************************************
+********************************************************************************
+Main build execution has started at 00:19:22:176 hh:mm:ss:ms 
+********************************************************************************
+Execute action: RTA_RTE 
+********************************************************************************
+Command line options: 
+-q 1 -r /Can_System/Pkg_Ecu/BMS -o [*.*]D:/My_GitHub/BSW_comTest/src/rte -f D:/My_GitHub/BSW_comTest/src/rte/rtegen_files.lst [ D:/My_GitHub/BSW_comTest/ecu_config/bsw/internal/bswmd_ecuc_values/CanSM_Prot_EcucValues.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/Project_EcucValues.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/PduR_BSWMD.arxml D:/My_GitHub/BSW_comTest/ARPackage_1.arxml D:/My_GitHub/BSW_comTest/DBC_SysDesc.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/ComM_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/Com_BSWMD.arxml D:/My_GitHub/BSW_comTest/system_config/Platform_Types.arxml D:/My_GitHub/BSW_comTest/ARPackage_4.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/ComStack_Types.arxml D:/My_GitHub/BSW_comTest/ARPackage_5.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/Com_Cfg_BSWMD.arxml D:/My_GitHub/BSW_comTest/ARPackage_2.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/CanEcucValues.arxml D:/My_GitHub/BSW_comTest/system_config/Standard_Types.arxml D:/My_GitHub/BSW_comTest/system_config/PlatformBaseOld_Types.arxml D:/My_GitHub/BSW_comTest/BMS_FlatView_SWCD.arxml D:/My_GitHub/BSW_comTest/System_0_EcuExtr.arxml D:/My_GitHub/BSW_comTest/ARPackage_7Rte.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/internal/bswmd_ecuc_values/PduR_Prot_EcucValues.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/ComM_Cfg_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/EcuM_Cfg_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/internal/bswmd_ecuc_values/CanIf_Prot_EcucValues.arxml D:/My_GitHub/BSW_comTest/ARPackage_0.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml D:/My_GitHub/BSW_comTest/system_config/PlatformBase_Types.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/EcuM_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/internal/ComStack_EcucValues.arxml D:/My_GitHub/BSW_comTest/externalfile/BswM_EcucValues.arxml D:/My_GitHub/BSW_comTest/EcucValueCollection_0_file.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/CanSM_Cfg_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/internal/bswmd_ecuc_values/ComM_Prot_EcucValues.arxml D:/My_GitHub/BSW_comTest/system_config/rba_CUCELSwAddrMethod_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/PduR_Cfg_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/ComM_SWCD.arxml D:/My_GitHub/BSW_comTest/system_config/PlatformOld_Types.arxml D:/My_GitHub/BSW_comTest/ARPackage_6.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/CanIf_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/BswM_Cfg_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/internal/bswmd_ecuc_values/Com_Prot_EcucValues.arxml D:/My_GitHub/BSW_comTest/ARPackage_3.arxml D:/My_GitHub/BSW_comTest/system_config/rba_CUCELCompuMethods_BSWMD.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/_fwd/ecuc_configuration_values_fwd.arxml D:/My_GitHub/BSW_comTest/externalfile/rba_Can_BSWMD.arxml D:/My_GitHub/BSW_comTest/ARPackage_7Os.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/CanIf_Cfg_BSWMD.arxml D:/My_GitHub/BSW_comTest/system_config/PlatformSwBasePatch_Types.arxml D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/CanSM_BSWMD.arxml D:/My_GitHub/BSW_comTest/externalfile/EcuM_EcucValues.arxml D:/My_GitHub/BSW_comTest/BMS_FlatMap.arxml D:/My_GitHub/BSW_comTest/ISOLAR_PlatformTypes.arxml ] --error-report=xml
+RTA-RTE V7.1.0 
+Copyright ? ETAS GmbH 2004-2020
+Pre-processor warning set to - pragma message
+Phase is RTE (license verified)
+>Validating XML...
+<Validating XML... done
+>Building types database...
+<Building types database... done
+>Flattening Root Composition...
+>Parsing RTE Configuration...
+<Parsing RTE Configuration... done
+<Flattening Root Composition... done
+>Validating Input...
+<Validating Input... done
+>Finding modes...
+<Finding modes... done
+>Building skeleton reification tree...
+<Building skeleton reification tree... done
+>Building reification tree...
+<Building reification tree... done
+>Generating output files...
+<Generating output files... done
+>Processing templates...
+<Processing templates... done
+Messages written to D:/My_GitHub/BSW_comTest/src/rte/RteErr.xml.
+0 errors, 4 warnings and 3 info messages were generated.
+The following files were generated:
+	D:/My_GitHub/BSW_comTest/src/rte/Rte.c
+	D:/My_GitHub/BSW_comTest/src/rte/Rte.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_BSWMD.arxml
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_BswM.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_BswM_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Catalog.xml
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Cbk.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Cfg.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_ComM.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_ComM_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Const.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_DataHandleType.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_EcuM.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_EcuM_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Hook.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Intl.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Lib.c
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Main.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_McSupportData.arxml
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Os_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_swc.h
+	D:/My_GitHub/BSW_comTest/src/rte/Rte_swc_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_BswM.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_BswM_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_CanSM.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_CanSM_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_Com.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_ComM.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_ComM_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_Com_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_EcuM.h
+	D:/My_GitHub/BSW_comTest/src/rte/SchM_EcuM_Type.h
+	D:/My_GitHub/BSW_comTest/src/rte/osNeeds.arxml
+	D:/My_GitHub/BSW_comTest/src/rte/rte_measurable.xml
+Execution of action RTA_RTE successfully completed
+********************************************************************************
+********************************************************************************
+Post build execution has started at 00:19:25:844 hh:mm:ss:ms 
+********************************************************************************
+Execute action: ProblemsLogEntryCreator 
+********************************************************************************
+Execution of action ProblemsLogEntryCreator successfully completed
+********************************************************************************
+
+********************************************************************************
+Pre Build Summary 
+********************************************************************************
+- LstFileGenerator --> Success (Executed for 00:00:00:014 hh:mm:ss:ms)
+Build Summary 
+********************************************************************************
+- RTA_RTE --> Success (Executed for 00:00:02:400 hh:mm:ss:ms)
+********************************************************************************
+Post Build Summary 
+********************************************************************************
+- ProblemsLogEntryCreator --> Success (Executed for 00:00:00:015 hh:mm:ss:ms)
+
+Time taken for the complete build: 00:00:02:672

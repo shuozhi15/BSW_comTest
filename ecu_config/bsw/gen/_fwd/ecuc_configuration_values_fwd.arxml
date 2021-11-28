@@ -13,6 +13,13 @@
         <SD GID=".AUTOSAR_ComM.EcucModuleDefs.ComM.ComMConfigSet">1</SD>
         <SD GID=".AUTOSAR_ComM.EcucModuleDefs.ComM">1</SD>
         <SD GID=".AUTOSAR_ComM.EcucModuleDefs.ComM.ComMConfigSet.ComMChannel">1</SD>
+        <SD GID=".AUTOSAR_EcuM.EcucModuleDefs.EcuM.EcuMConfiguration.EcuMCommonConfiguration">1</SD>
+        <SD GID=".AUTOSAR_EcuM.EcucModuleDefs.EcuM.EcuMConfiguration">1</SD>
+        <SD GID=".AUTOSAR_EcuM.EcucModuleDefs.EcuM">1</SD>
+        <SD GID=".AUTOSAR_EcuM.EcucModuleDefs.EcuM.EcuMConfiguration.EcuMCommonConfiguration.EcuMWakeupSource">5</SD>
+        <SD GID=".AUTOSAR_EcuM.EcucModuleDefs.EcuM.EcuMConfiguration.EcuMFlexConfiguration">1</SD>
+        <SD GID=".AUTOSAR_EcuM.EcucModuleDefs.EcuM.EcuMConfiguration.EcuMFlexConfiguration.EcuMResetMode">3</SD>
+        <SD GID=".AUTOSAR_EcuM.EcucModuleDefs.EcuM.EcuMConfiguration.EcuMFlexConfiguration.EcuMShutdownCause">4</SD>
         <SD GID=".AUTOSAR_CanSM.EcucModuleDefs.CanSM.CanSMConfiguration.CanSMManagerNetwork">1</SD>
         <SD GID=".AUTOSAR_CanSM.EcucModuleDefs.CanSM.CanSMConfiguration">1</SD>
         <SD GID=".AUTOSAR_CanSM.EcucModuleDefs.CanSM">1</SD>
@@ -196,6 +203,294 @@
                           <VALUE>0</VALUE>
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                  </SUB-CONTAINERS>
+                </ECUC-CONTAINER-VALUE>
+              </CONTAINERS>
+            </ECUC-MODULE-CONFIGURATION-VALUES>
+            <ECUC-MODULE-CONFIGURATION-VALUES>
+              <SHORT-NAME>EcuM</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="FWD">
+                    <SD GID="FWD_INFO">&lt;0::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM</DEFINITION-REF>
+              <CONTAINERS>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>EcuMConfiguration_0</SHORT-NAME>
+                  <ADMIN-DATA>
+                    <SDGS>
+                      <SDG GID="FWD">
+                        <SD GID="FWD_INFO">&lt;0::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                      </SDG>
+                    </SDGS>
+                  </ADMIN-DATA>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration</DEFINITION-REF>
+                  <SUB-CONTAINERS>
+                    <ECUC-CONTAINER-VALUE>
+                      <SHORT-NAME>EcuMCommonConfiguration</SHORT-NAME>
+                      <ADMIN-DATA>
+                        <SDGS>
+                          <SDG GID="FWD">
+                            <SD GID="FWD_INFO">&lt;0::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                          </SDG>
+                        </SDGS>
+                      </ADMIN-DATA>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration</DEFINITION-REF>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="567cedab-276d-4bf2-9002-92cc4150ca40">
+                          <SHORT-NAME>ECUM_WKSOURCE_POWER</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;0::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMWakeupSourceId|EcuM_GenerateId.mwe#EcuM_Prepare::EcuMValidationTimeout</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+                              <VALUE>0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+                              <VALUE>0.0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="672bb5b5-bc68-4ebf-b5dd-0056275e48ad">
+                          <SHORT-NAME>ECUM_WKSOURCE_RESET</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;2::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMWakeupSourceId|EcuM_GenerateId.mwe#EcuM_Prepare::EcuMValidationTimeout</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+                              <VALUE>1</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+                              <VALUE>0.0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="ba5f7b90-a2f5-4b94-a6c6-4fde7a9e02a0">
+                          <SHORT-NAME>ECUM_WKSOURCE_INTERNAL_RESET</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;3::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMWakeupSourceId|EcuM_GenerateId.mwe#EcuM_Prepare::EcuMValidationTimeout</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+                              <VALUE>2</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+                              <VALUE>0.0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="394fed77-b6bc-472a-a103-1a8e067c045c">
+                          <SHORT-NAME>ECUM_WKSOURCE_INTERNAL_WDG</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;4::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMWakeupSourceId|EcuM_GenerateId.mwe#EcuM_Prepare::EcuMValidationTimeout</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+                              <VALUE>3</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+                              <VALUE>0.0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="8cfc99e8-0264-4c68-917c-8fc847935985">
+                          <SHORT-NAME>ECUM_WKSOURCE_EXTERNAL_WDG</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;5::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMWakeupSourceId|EcuM_GenerateId.mwe#EcuM_Prepare::EcuMValidationTimeout</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMWakeupSourceId</DEFINITION-REF>
+                              <VALUE>4</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMCommonConfiguration/EcuMWakeupSource/EcuMValidationTimeout</DEFINITION-REF>
+                              <VALUE>0.0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE>
+                      <SHORT-NAME>EcuMFlexConfiguration</SHORT-NAME>
+                      <ADMIN-DATA>
+                        <SDGS>
+                          <SDG GID="FWD">
+                            <SD GID="FWD_INFO">&lt;0::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                          </SDG>
+                        </SDGS>
+                      </ADMIN-DATA>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration</DEFINITION-REF>
+                      <SUB-CONTAINERS>
+                        <ECUC-CONTAINER-VALUE UUID="f644cb67-0244-4ce5-b760-9e71dd18ab67">
+                          <SHORT-NAME>ECUM_RESET_MCU</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;0::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMResetModeId</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMResetMode</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMResetMode/EcuMResetModeId</DEFINITION-REF>
+                              <VALUE>0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="82a0d65c-549a-4b09-b622-f10dc4caa8dd">
+                          <SHORT-NAME>ECUM_RESET_WDGM</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;2::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMResetModeId</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMResetMode</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMResetMode/EcuMResetModeId</DEFINITION-REF>
+                              <VALUE>1</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="b970c62f-16af-42e2-b56c-c613fe2edbe0">
+                          <SHORT-NAME>ECUM_RESET_IO</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;3::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMResetModeId</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMResetMode</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMResetMode/EcuMResetModeId</DEFINITION-REF>
+                              <VALUE>2</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="25b7ebac-52e3-465a-bf21-2e98a094be36">
+                          <SHORT-NAME>ECUM_CAUSE_UNKNOWN</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;0::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMShutdownCauseId</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMShutdownCause</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMShutdownCause/EcuMShutdownCauseId</DEFINITION-REF>
+                              <VALUE>0</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="8de4b91b-3229-404b-88a3-c35e966408f6">
+                          <SHORT-NAME>ECUM_CAUSE_ECU_STATE</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;2::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMShutdownCauseId</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMShutdownCause</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMShutdownCause/EcuMShutdownCauseId</DEFINITION-REF>
+                              <VALUE>1</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="c767e03c-ea56-448a-975d-5886407c1045">
+                          <SHORT-NAME>ECUM_CAUSE_WDGM</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;3::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMShutdownCauseId</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMShutdownCause</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMShutdownCause/EcuMShutdownCauseId</DEFINITION-REF>
+                              <VALUE>2</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                        <ECUC-CONTAINER-VALUE UUID="23b463e8-0f97-447b-898b-f5e89a915501">
+                          <SHORT-NAME>ECUM_CAUSE_DCM</SHORT-NAME>
+                          <ADMIN-DATA>
+                            <SDGS>
+                              <SDG GID="FWD">
+                                <SD GID="FWD_INFO">&lt;4::EcuM_GenerateId.mwe#EcuM_Prepare</SD>
+                                <SD GID="FWD_PARAM_INFO">EcuM_GenerateId.mwe#EcuM_Prepare::EcuMShutdownCauseId</SD>
+                              </SDG>
+                            </SDGS>
+                          </ADMIN-DATA>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMShutdownCause</DEFINITION-REF>
+                          <PARAMETER-VALUES>
+                            <ECUC-NUMERICAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/AUTOSAR_EcuM/EcucModuleDefs/EcuM/EcuMConfiguration/EcuMFlexConfiguration/EcuMShutdownCause/EcuMShutdownCauseId</DEFINITION-REF>
+                              <VALUE>3</VALUE>
+                            </ECUC-NUMERICAL-PARAM-VALUE>
+                          </PARAMETER-VALUES>
+                        </ECUC-CONTAINER-VALUE>
+                      </SUB-CONTAINERS>
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
@@ -788,7 +1083,7 @@
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                               </PARAMETER-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="8b88d764-c621-4184-8faa-3f49cec42489">
+                            <ECUC-CONTAINER-VALUE UUID="70618477-6a12-4362-a3a7-e0e652e6db05">
                               <SHORT-NAME>BSWSE_MainFunction_ComMChannel_Can_Cluster_Channel</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -829,7 +1124,7 @@
                           </ADMIN-DATA>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/RB/RBA/rba_ArxmlGen/EcucModuleDefs/rba_ArxmlGen/rba_ArxmlGen_Comp</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="6f5d5930-5764-4bfd-ade1-73eadfea43c8">
+                            <ECUC-CONTAINER-VALUE UUID="3a3a9ffe-3fdf-4d89-a7d4-891ecaee2584">
                               <SHORT-NAME>CanIf_ControllerState_Astruct_impl</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -855,7 +1150,7 @@
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                               </PARAMETER-VALUES>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="5b2eca2e-2d51-4fc6-a8ce-60acc8496a1f">
+                                <ECUC-CONTAINER-VALUE UUID="8ee653fa-fae2-41ff-8bff-b4d3c03eda59">
                                   <SHORT-NAME>CanIf_struct_impl</SHORT-NAME>
                                   <ADMIN-DATA>
                                     <SDGS>
@@ -875,7 +1170,7 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="1f431718-0e59-4510-a183-0ba5111d2805">
+                            <ECUC-CONTAINER-VALUE UUID="82aa2b21-6679-42b4-aa42-98ced059d972">
                               <SHORT-NAME>CanIf_ControllerState_Astruct_app</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -907,7 +1202,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="062a2e99-3942-4a64-9a26-7cf0afb744bc">
+                                <ECUC-CONTAINER-VALUE UUID="2007db66-9917-4215-a047-f244d082b1be">
                                   <SHORT-NAME>CanIf_ControllerStateType</SHORT-NAME>
                                   <ADMIN-DATA>
                                     <SDGS>
@@ -927,7 +1222,7 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="33efc337-f4a9-49c7-81cf-432635e6177c">
+                            <ECUC-CONTAINER-VALUE UUID="25267131-0775-4f18-bb83-be72ce8dad25">
                               <SHORT-NAME>CanIf_Prv_ControllerState_ast</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -963,7 +1258,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="3cbd7218-fd96-41ae-a6a0-8fba5a8366ea">
+                            <ECUC-CONTAINER-VALUE UUID="10134f98-5a02-4af9-9726-5197c9383802">
                               <SHORT-NAME>CanIf_NotifStatusType_Aenum_impl</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -989,7 +1284,7 @@
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                               </PARAMETER-VALUES>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="c983416e-abd2-43ca-a441-9dde1e81a401">
+                                <ECUC-CONTAINER-VALUE UUID="1b23fab3-e4ad-4c8f-9b4c-0dd2b5a07fd7">
                                   <SHORT-NAME>CanIf_Enum_impl</SHORT-NAME>
                                   <ADMIN-DATA>
                                     <SDGS>
@@ -1009,7 +1304,7 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="e2adb37b-6908-49d6-944e-5f68a928cc76">
+                            <ECUC-CONTAINER-VALUE UUID="11c433b7-e201-4bd6-8b16-852d55dca4f1">
                               <SHORT-NAME>CanIf_NotifStatusType_Aenum_app</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -1041,7 +1336,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="997246bc-ffff-4800-abaa-b5a094ec1505">
+                                <ECUC-CONTAINER-VALUE UUID="0c855cf9-1086-4c3c-b352-2ffc4a172886">
                                   <SHORT-NAME>CanIf_NotifStatusType</SHORT-NAME>
                                   <ADMIN-DATA>
                                     <SDGS>
@@ -1061,7 +1356,7 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="387ddb97-6465-49ba-abbf-098b6c350a6b">
+                            <ECUC-CONTAINER-VALUE UUID="d59641d4-dd06-4651-9ffa-b67c33d40e21">
                               <SHORT-NAME>CanIf_Prv_TxNotification_aen</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -1321,7 +1616,7 @@
                           </ADMIN-DATA>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/RB/RBA/rba_ArxmlGen/EcucModuleDefs/rba_ArxmlGen/rba_ArxmlGen_Comp</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="c439a3cf-c995-4146-9dcd-65bbc995b67c">
+                            <ECUC-CONTAINER-VALUE UUID="cf16b584-ffb8-415c-af47-2df8a590f2c6">
                               <SHORT-NAME>Com_SigBuf_au16_impl</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -1347,7 +1642,7 @@
                                 </ECUC-TEXTUAL-PARAM-VALUE>
                               </PARAMETER-VALUES>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="bddf3297-ef5f-40b7-972d-6e6311921e4d">
+                                <ECUC-CONTAINER-VALUE UUID="2ed411b3-377c-476a-819e-595953dacbfb">
                                   <SHORT-NAME>Com_Subimpl_u16</SHORT-NAME>
                                   <ADMIN-DATA>
                                     <SDGS>
@@ -1367,7 +1662,7 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="601f9016-62bf-4b76-b683-3c164fae2f9d">
+                            <ECUC-CONTAINER-VALUE UUID="ea4b2701-d980-44b2-9a85-84449d2d59f2">
                               <SHORT-NAME>Com_SigBuf_au16</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -1399,7 +1694,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="8ecf266d-f296-47b0-b215-6bb1433d5c4c">
+                                <ECUC-CONTAINER-VALUE UUID="e932750e-ffde-4cd9-b9c8-279b662b1967">
                                   <SHORT-NAME>Com_Subapp_u16</SHORT-NAME>
                                   <ADMIN-DATA>
                                     <SDGS>
@@ -1419,7 +1714,7 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="f137d9f4-5f14-4b5a-ac06-ea8d50eaffa8">
+                            <ECUC-CONTAINER-VALUE UUID="fc2e41bf-8d4d-4e4b-b44f-4fb6a1dcc696">
                               <SHORT-NAME>Com_SigType_u16</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -1455,7 +1750,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="9e9bf374-87de-4325-96bc-730b19b529c7">
+                            <ECUC-CONTAINER-VALUE UUID="3709dee8-c998-4194-ace7-3f9702e6f4ca">
                               <SHORT-NAME>Com_implDataType_au8_Size8</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -1481,7 +1776,7 @@
                                 </ECUC-NUMERICAL-PARAM-VALUE>
                               </PARAMETER-VALUES>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="c74af918-22a1-4492-acfc-5b4a907c1467">
+                                <ECUC-CONTAINER-VALUE UUID="09ea1478-4480-4af2-b4a1-d04fb828d452">
                                   <SHORT-NAME>Com_Subimpl8</SHORT-NAME>
                                   <ADMIN-DATA>
                                     <SDGS>
@@ -1501,7 +1796,7 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="176c963f-ed80-4f46-811d-5d4b7cbf1803">
+                            <ECUC-CONTAINER-VALUE UUID="a933e61c-9db9-41a4-a32f-10128fe9bcca">
                               <SHORT-NAME>Com_applDataType_au8_Size8</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -1533,7 +1828,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="58b36d74-698b-4c76-b0fa-e03d5bb17198">
+                                <ECUC-CONTAINER-VALUE UUID="cbf1952e-df7e-4872-bcc9-51752c328b58">
                                   <SHORT-NAME>Com_Subapp8</SHORT-NAME>
                                   <ADMIN-DATA>
                                     <SDGS>
@@ -1553,7 +1848,7 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="14936e78-a7ba-4263-bc6c-1380ae39fa3d">
+                            <ECUC-CONTAINER-VALUE UUID="db03a1e4-cfe6-40ff-a68d-172028388c65">
                               <SHORT-NAME>Com_IpduBuf_BMS_Tem_4_CANNODE_0</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>
@@ -1589,7 +1884,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="a29b5af0-1d81-4446-a523-477c973c529b">
+                            <ECUC-CONTAINER-VALUE UUID="4d7c6655-966e-414b-ab72-2f12425c43ea">
                               <SHORT-NAME>Com_LocalBuf_TMR_3_CANNODE_0</SHORT-NAME>
                               <ADMIN-DATA>
                                 <SDGS>

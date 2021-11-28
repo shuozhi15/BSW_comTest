@@ -24,6 +24,8 @@
 /*Version check for EcuM and CanIf done in CanIf_Priv.h*/
 
 
+#include "EcuM_Cbk.h"
+
 
 /*
  **************************************************************************
@@ -686,7 +688,7 @@
 **                                                                           **
 ** Range       :  STD_ON/STD_OFF                                             **
 ******************************************************************************/
-#define CANIF_ECUM_ENABLED                    STD_OFF
+#define CANIF_ECUM_ENABLED                    STD_ON
 
 
 /*Wakeup Validation by NM-Pdu*/
