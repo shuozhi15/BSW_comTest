@@ -13,26 +13,12 @@
     <MESSAGE SEVERITY="ERROR">
       <CODE>E002411</CODE>
       <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/CanIf_BSWMD.arxml</FILE>
-      <LINE>1163</LINE>
-      <LOCATION>/AUTOSAR_CanIf/BswModuleEntrys/CanIf_CheckWakeup &gt;ARGUMENTS &gt;SW-SERVICE-ARG &gt;SW-DATA-DEF-PROPS &gt;SW-DATA-DEF-PROPS-VARIANTS &gt;SW-DATA-DEF-PROPS-CONDITIONAL &gt;IMPLEMENTATION-DATA-TYPE-REF</LOCATION>
-      <TEXT>Unable to resolve reference &apos;/AUTOSAR_EcuM/ImplementationDataTypes/EcuM_WakeupSourceType&apos;.</TEXT>
-    </MESSAGE>
-    <MESSAGE SEVERITY="ERROR">
-      <CODE>E002411</CODE>
-      <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/CanIf_BSWMD.arxml</FILE>
-      <LINE>1211</LINE>
-      <LOCATION>/AUTOSAR_CanIf/BswModuleEntrys/CanIf_CheckValidation &gt;ARGUMENTS &gt;SW-SERVICE-ARG &gt;SW-DATA-DEF-PROPS &gt;SW-DATA-DEF-PROPS-VARIANTS &gt;SW-DATA-DEF-PROPS-CONDITIONAL &gt;IMPLEMENTATION-DATA-TYPE-REF</LOCATION>
-      <TEXT>Unable to resolve reference &apos;/AUTOSAR_EcuM/ImplementationDataTypes/EcuM_WakeupSourceType&apos;.</TEXT>
-    </MESSAGE>
-    <MESSAGE SEVERITY="ERROR">
-      <CODE>E002411</CODE>
-      <FILE>D:/My_GitHub/BSW_comTest/ecu_config/bsw/gen/bswmd/CanIf_BSWMD.arxml</FILE>
       <LINE>1490</LINE>
       <LOCATION/>
       <TEXT>Unable to resolve reference &apos;/AUTOSAR_Can/ImplementationDataTypes/Can_HwType&apos;.</TEXT>
     </MESSAGE>
     <COUNT>
-      <ERROR>4</ERROR>
+      <ERROR>2</ERROR>
       <WARNING>0</WARNING>
       <INFO>0</INFO>
     </COUNT>
