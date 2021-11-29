@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="d1bc43ef-bceb-4709-96f2-56cda68c5662">
+      <SHORT-NAME>BMS_FlatView</SHORT-NAME>
+      <ELEMENTS>
+        <FLAT-MAP>
+          <SHORT-NAME>BMS_FlatMap</SHORT-NAME>
+          <INSTANCES>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>CPT_ComM</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/System/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition1/Composition1/CPT_ComM</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System_EcuExtract/EXTR_BMS/CPT_BMS_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/BMS_FlatView/SwComponentTypes/BMS_FlatView/CPT_ComM</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>CPT_swc</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/System/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition1/Composition1/CPT_swc</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System_EcuExtract/EXTR_BMS/CPT_BMS_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/BMS_FlatView/SwComponentTypes/BMS_FlatView/CPT_swc</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>DataElements_VariableDataPrototype_0</SHORT-NAME>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <SW-REFRESH-TIMING>
+                      <CSE-CODE>4</CSE-CODE>
+                      <CSE-CODE-FACTOR>1</CSE-CODE-FACTOR>
+                    </SW-REFRESH-TIMING>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/System/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition1/Composition1/CPT_swc</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="R-PORT-PROTOTYPE">/swc/swc/crash_r</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/port/crash/DataElements_VariableDataPrototype_0</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System_EcuExtract/EXTR_BMS/CPT_BMS_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/BMS_FlatView/SwComponentTypes/BMS_FlatView/CPT_swc</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="R-PORT-PROTOTYPE">/swc/swc/crash_r</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/port/crash/DataElements_VariableDataPrototype_0</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>DataElements_VariableDataPrototype_0_0</SHORT-NAME>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <SW-REFRESH-TIMING>
+                      <CSE-CODE>4</CSE-CODE>
+                      <CSE-CODE-FACTOR>1</CSE-CODE-FACTOR>
+                    </SW-REFRESH-TIMING>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/System/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition1/Composition1/CPT_swc</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/swc/swc/soc_p</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/port/soc/DataElements_VariableDataPrototype_0</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System_EcuExtract/EXTR_BMS/CPT_BMS_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/BMS_FlatView/SwComponentTypes/BMS_FlatView/CPT_swc</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/swc/swc/soc_p</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/port/soc/DataElements_VariableDataPrototype_0</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+          </INSTANCES>
+        </FLAT-MAP>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+

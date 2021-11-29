@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>Composition1</SHORT-NAME>
+      <ELEMENTS>
+        <COMPOSITION-SW-COMPONENT-TYPE>
+          <SHORT-NAME>Composition1</SHORT-NAME>
+          <PORTS>
+            <P-PORT-PROTOTYPE>
+              <SHORT-NAME>soc_p</SHORT-NAME>
+              <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/port/soc</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+            <R-PORT-PROTOTYPE>
+              <SHORT-NAME>crash_r</SHORT-NAME>
+              <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/port/crash</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+          </PORTS>
+          <COMPONENTS>
+            <SW-COMPONENT-PROTOTYPE UUID="a2cb67b7-018e-4d42-aad2-3b893a422247">
+              <SHORT-NAME>CPT_ComM</SHORT-NAME>
+              <TYPE-TREF DEST="SERVICE-SW-COMPONENT-TYPE">/AUTOSAR_ComM/SwComponentTypes/ComM</TYPE-TREF>
+            </SW-COMPONENT-PROTOTYPE>
+            <SW-COMPONENT-PROTOTYPE UUID="ef8ca1aa-8ae4-48ac-b571-5b22c7bebc2a">
+              <SHORT-NAME>CPT_swc</SHORT-NAME>
+              <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/swc/swc</TYPE-TREF>
+            </SW-COMPONENT-PROTOTYPE>
+          </COMPONENTS>
+          <CONNECTORS>
+            <DELEGATION-SW-CONNECTOR>
+              <SHORT-NAME>DSC_soc_p_CPT_swc_soc_p</SHORT-NAME>
+              <INNER-PORT-IREF>
+                <P-PORT-IN-COMPOSITION-INSTANCE-REF>
+                  <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition1/Composition1/CPT_swc</CONTEXT-COMPONENT-REF>
+                  <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/swc/swc/soc_p</TARGET-P-PORT-REF>
+                </P-PORT-IN-COMPOSITION-INSTANCE-REF>
+              </INNER-PORT-IREF>
+              <OUTER-PORT-REF DEST="P-PORT-PROTOTYPE">/Composition1/Composition1/soc_p</OUTER-PORT-REF>
+            </DELEGATION-SW-CONNECTOR>
+            <DELEGATION-SW-CONNECTOR>
+              <SHORT-NAME>DSC_crash_r_CPT_swc_crash_r</SHORT-NAME>
+              <INNER-PORT-IREF>
+                <R-PORT-IN-COMPOSITION-INSTANCE-REF>
+                  <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition1/Composition1/CPT_swc</CONTEXT-COMPONENT-REF>
+                  <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/swc/swc/crash_r</TARGET-R-PORT-REF>
+                </R-PORT-IN-COMPOSITION-INSTANCE-REF>
+              </INNER-PORT-IREF>
+              <OUTER-PORT-REF DEST="R-PORT-PROTOTYPE">/Composition1/Composition1/crash_r</OUTER-PORT-REF>
+            </DELEGATION-SW-CONNECTOR>
+          </CONNECTORS>
+        </COMPOSITION-SW-COMPONENT-TYPE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+
